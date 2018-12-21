@@ -1,0 +1,132 @@
+/*
+Theme Name:   		Unicase Child Theme
+Theme URI:    		https://themeforest.net/item/unicase-electronics-store-woocommerce-theme/13626672/
+Description:  		This is a blank child theme for Unicase
+Author:       		Transvelo
+Author URI:			http://transvelo.com
+Template:       	unicase
+Template Version: 	1.6.2
+Version:      		1.6.2
+License:      		GNU General Public License v2 or later 
+License URI:  		http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         		black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+Text Domain:  		unicase-child
+
+Unicase is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+body {
+    color: #373737;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+body.unicase-style-2 .main-header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+body.unicase-style-2 .main-header .site-branding {
+    margin-top: 0;
+}
+
+.main-header-content .site-branding {
+    float: none;
+    width: auto;
+}
+
+.main-header-content .site-branding img {
+    width: 250px;
+    height: auto;
+}
+
+.main-header-content .company-info {
+    margin: auto;
+}
+
+.main-header-content .company-info p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-header-content .company-info .company-name {
+    font-size: 24px;
+}
+
+.main-header-content .company-info .company-tel {
+    margin-bottom: 0;
+}
+
+.main-header-content .header-right {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menu-primary-menu .menu-item a {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+#menu-primary-menu .primary-menu-search {
+    max-width: 350px;
+    margin-left: 20px;
+}
+
+#menu-primary-menu .primary-menu-search .search-area {
+    margin-top: 9px;
+    border: none;
+}
+
+#menu-primary-menu .primary-menu-search .search-area form .search-field {
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#menu-primary-menu .primary-menu-search .search-area form .input-group-addon {
+    padding: 4px 10px;
+    background-color: #ed1b24;
+}
+#menu-primary-menu .primary-menu-search .search-area form .input-group-addon button {
+    color: #ffffff;
+}
+
+.sidebar .widget  .widget-title {
+    font-size: 15px;
+}
+
+#secondary #unicase_nav_menu-1 .widget-title {
+    background-color: #30a11e;
+}
+
+#wp_statistics_widget-2 ul li label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer .footer-bottom-contents-wrap .footer-copyright-text {
+    padding: 20px 0;
+    display: block;
+    float: none;
+    text-align: center;
+}
