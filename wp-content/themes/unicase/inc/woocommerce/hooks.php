@@ -87,8 +87,8 @@ add_action( 'woocommerce_before_single_product_summary',	'unicase_wrap_product_i
 add_action( 'woocommerce_before_single_product_summary',	'unicase_wrap_product_detail', 				PHP_INT_MAX );
 
 add_action( 'woocommerce_single_product_summary',           'unicase_template_single_price', 10 );
-add_action( 'woocommerce_single_product_summary',			'unicase_single_product_add_to_cart', 30 );
-add_action( 'woocommerce_share',							'unicase_single_product_share_icons', 10 );
+//add_action( 'woocommerce_single_product_summary',			'unicase_single_product_add_to_cart', 30 );
+//add_action( 'woocommerce_share',							'unicase_single_product_share_icons', 10 );
 add_action( 'woocommerce_after_single_product_summary',		'unicase_wrap_product_item_row',	0);
 
 /**
