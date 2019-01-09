@@ -19,7 +19,7 @@ if ( ! function_exists( 'main_header_right' ) ) {
     function main_header_right() {
         ob_start();
         ?>
-        <div class="header-right">
+        <div class="header-right hidden-xs">
             <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/right-header-img.png"
         </div>
         <?php

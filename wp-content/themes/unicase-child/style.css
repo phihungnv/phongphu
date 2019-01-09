@@ -130,3 +130,21 @@ footer .footer-bottom-contents-wrap .footer-copyright-text {
     float: none;
     text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+    .main-header-content {
+        flex-direction: column;
+    }
+
+    .main-header-content .site-branding {
+        margin-bottom: 15px;
+    }
+
+    #menu-primary-menu .primary-menu-search, .widget_wp_statistics_widget {
+        display: none;
+    }
+
+    .woocommerce_thumbnail {
+        margin: auto;
+    }
+}
