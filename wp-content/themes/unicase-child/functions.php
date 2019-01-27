@@ -10,7 +10,7 @@
  */
 
 function unicase_child_theme_enqueue_scripts() {
-    wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
+    wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/styles.css'  );
     wp_enqueue_style( 'childstyle' );
 }
 add_action( 'wp_enqueue_scripts', 'unicase_child_theme_enqueue_scripts', 11);
@@ -38,38 +38,107 @@ function add_live_search($items, $args) {
 }
 add_filter('wp_nav_menu_items', 'add_live_search', 10, 2);
 
-function custom_best_selling_products( $atts ) {
+function custom_best_selling_products_callback( $atts ) {
     $atts = shortcode_atts( array(
         'title' => 'Best Selling',
         'per_page' => 8,
         'columns' => 4
     ), $atts, 'best_selling_products' );
 
+    $args = array(
+        'post_type' => 'product',
+        'post_status' => 'publish',
+        'posts_per_page' => $atts['per_page'],
+        'meta_key'   => 'best_selling',
+        'meta_value' => 1
+    );
+
+    $loop = new WP_Query( $args );
+
     if ( is_woocommerce_activated() ) {
-        echo '<section class="unicase-product-section unicase-best-selling-products">';
+        if ( $loop->have_posts() ) {
+            echo '<section class="unicase-product-section unicase-best-selling-products">';
+            echo '<h2 class="section-title">' . esc_attr( $atts['title'] ) . '</h2>';
+            echo '<ul class="products columns-' . $atts['columns'] . '">';
 
-        echo '<h2 class="section-title">' . esc_attr( $atts['title'] ) . '</h2>';
-        echo do_shortcode( '[products tag="best-selling" per_page="' . intval( $atts['per_page'] ) . '" columns="' . intval( $atts['columns'] ) . '"]' );
+            while ( $loop->have_posts() ) : $loop->the_post();
+                wc_get_template_part( 'content', 'product' );
+            endwhile;
 
-        echo '</section>';
+            echo '</ul>';
+            echo '</section>';
+        }
+        wp_reset_postdata();
     }
 }
-add_shortcode( 'custom_best_selling_products', 'custom_best_selling_products' );
+add_shortcode( 'custom_best_selling_products', 'custom_best_selling_products_callback' );
 
-function custom_liquidation_products( $atts ) {
+function custom_liquidation_products_callback( $atts ) {
     $atts = shortcode_atts( array(
         'title' => 'Liquidation',
         'per_page' => 8,
         'columns' => 4
-    ), $atts, 'best_selling_products' );
+    ), $atts, 'custom_liquidation_products' );
+
+    $args = array(
+        'post_type' => 'product',
+        'post_status' => 'publish',
+        'posts_per_page' => $atts['per_page'],
+        'meta_key'   => 'liquidation',
+        'meta_value' => 1
+    );
+
+    $loop = new WP_Query( $args );
 
     if ( is_woocommerce_activated() ) {
-        echo '<section class="unicase-product-section unicase-best-selling-products">';
+        if ( $loop->have_posts() ) {
+            echo '<section class="unicase-product-section unicase-liquidation-products">';
+            echo '<h2 class="section-title">' . esc_attr( $atts['title'] ) . '</h2>';
+            echo '<ul class="products columns-' . $atts['columns'] . '">';
 
-        echo '<h2 class="section-title">' . esc_attr( $atts['title'] ) . '</h2>';
-        echo do_shortcode( '[products tag="liquidation" per_page="' . intval( $atts['per_page'] ) . '" columns="' . intval( $atts['columns'] ) . '"]' );
+            while ( $loop->have_posts() ) : $loop->the_post();
+                wc_get_template_part( 'content', 'product' );
+            endwhile;
 
-        echo '</section>';
+            echo '</ul>';
+            echo '</section>';
+        }
+        wp_reset_postdata();
     }
 }
-add_shortcode( 'custom_liquidation_products', 'custom_liquidation_products' );
+add_shortcode( 'custom_liquidation_products', 'custom_liquidation_products_callback' );
+
+function custom_main_products_callback( $atts ) {
+    $atts = shortcode_atts( array(
+        'title' => 'Main Products',
+        'per_page' => 8,
+        'columns' => 4
+    ), $atts, 'custom_main_products' );
+
+    $args = array(
+        'post_type' => 'product',
+        'post_status' => 'publish',
+        'posts_per_page' => $atts['per_page'],
+        'meta_key'   => 'main_product',
+        'meta_value' => 1
+    );
+
+    $loop = new WP_Query( $args );
+
+    if ( is_woocommerce_activated() ) {
+        if ( $loop->have_posts() ) {
+            echo '<section class="unicase-product-section unicase-main-products">';
+            echo '<h2 class="section-title">' . esc_attr( $atts['title'] ) . '</h2>';
+            echo '<ul class="products columns-' . $atts['columns'] . '">';
+
+            while ( $loop->have_posts() ) : $loop->the_post();
+                wc_get_template_part( 'content', 'product' );
+            endwhile;
+
+            echo '</ul>';
+            echo '</section>';
+        }
+        wp_reset_postdata();
+    }
+}
+add_shortcode( 'custom_main_products', 'custom_main_products_callback' );

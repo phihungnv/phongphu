@@ -131,6 +131,20 @@ footer .footer-bottom-contents-wrap .footer-copyright-text {
     text-align: center;
 }
 
+footer .contact-info {
+    margin-bottom: 0;
+}
+
+footer .contact-info .media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .contact-info .media p {
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 767px) {
     .main-header-content {
         flex-direction: column;
