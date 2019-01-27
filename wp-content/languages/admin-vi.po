@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-18 01:45:17+0000\n"
+"PO-Revision-Date: 2019-01-09 06:50:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,6 +25,11 @@ msgstr "0"
 msgctxt "start of week"
 msgid "1"
 msgstr "1"
+
+#. translators: %s: https://wordpress.org/plugins/classic-editor
+#: wp-admin/edit-form-blocks.php:412
+msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or try the <a href=\"%s\">Classic Editor plugin</a>."
+msgstr "Trình soạn thảo block yêu cầu JavaScript. Vui lòng bật Javascript trong trình duyệt của bạn, hoặc thử cài đặt <a href=\"%s\">plugin Classic Editor</a>."
 
 #: wp-admin/post.php:44
 msgid "A post type mismatch has been detected."
@@ -92,140 +97,140 @@ msgid "The Gutenberg plugin has been deactivated, as the features are now includ
 msgstr "Plugin Gutenberg đã được ngừng kích hoạt, bởi vì tính năng này đã được cho vào WordPress %1$s như là mặc định. Nếu bạn muốn kiểm tra các thay đổi tiếp theo trong trải nghiệm soạn thảo, hãy %2$skích hoạt lại plugin Gutenberg%3$s."
 
 #. Translators: Use this to specify the CSS font family for the default font
-#: wp-admin/edit-form-blocks.php:182
+#: wp-admin/edit-form-blocks.php:178
 msgctxt "CSS Font Family for Editor Font"
 msgid "Noto Serif"
 msgstr "Helvetica, Helvetica Neue, Arial"
 
-#: wp-admin/about.php:440
+#: wp-admin/about.php:476
 msgid "Note to users of assistive technology: if you experience usability issues with the block editor, we recommend you continue to use the Classic Editor."
 msgstr "Lưu ý dành cho người dùng: nếu bạn gặp vấn đề trong quá trình soạn thảo block, chúng tôi đề nghị bạn tiếp tục sử dụng trình soạn thảo ban đầu."
 
-#: wp-admin/about.php:439
+#: wp-admin/about.php:475
 msgid "The Classic Editor plugin restores the previous WordPress editor and the Edit Post screen. It lets you keep using plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor. To install, visit your plugins page and click the &#8220;Install Now&#8221; button next to &#8220;Classic Editor&#8221;. After the plugin finishes installing, click &#8220;Activate&#8221;. That’s it!"
 msgstr "Plugin Class Editor khôi phục trình soạn thảo ban đầu của WordPress cùng giao diện Sửa bài viết. Nó cho phép bạn giữ lại các plugin mở rộng nó, thêm meta box kiểu cũ hoặc không phụ thuộc vào trình soạn thảo cũ. Để cài đặt, ghé thăm trang plugin và nhấp vào nút &#8220;Cài đặt&#8221; bên cạnh &#8220;Classic Editor&#8221;. Sau khi cài đặt xong, nhấp vào nút &#8220;Kích hoạt&#8221;. Và như vậy sẽ cài xong!"
 
-#: wp-admin/about.php:438
+#: wp-admin/about.php:474
 msgid "Prefer to stick with the familiar Classic Editor? No problem! Support for the Classic Editor plugin will remain in WordPress through 2021."
 msgstr "Bạn vẫn muốn sử dụng trình soạn thảo cơ bản như trước đây? Không sao cả! Trình soạn thảo này vẫn được hỗ trợ như một plugin trong WordPress tới năm 2021."
 
-#: wp-admin/about.php:423
+#: wp-admin/about.php:459
 msgid "Keep it Classic"
 msgstr "Tiếp tục sử dụng Trình soạn thảo cơ bản"
 
-#: wp-admin/about.php:414
+#: wp-admin/about.php:450
 msgid "Learn how to get started"
 msgstr "Học cách bắt đầu sử dụng"
 
-#: wp-admin/about.php:408
+#: wp-admin/about.php:444
 msgid "The new block paradigm opens up a path of exploration and imagination when it comes to solving user needs. With the unified block insertion flow, it&#8217;s easier for your clients and customers to find and use blocks for all types of content. Developers can focus on executing their vision and providing rich editing experiences, rather than fussing with difficult APIs."
 msgstr "Mô hình block mới mở ra con đường khám phá và tăng trí tưởng tượng khi giải quyết nhu cầu của người dùng. Với tư duy block thống nhất, nó giúp người dùng và khách hàng dễ dàng tìm và sử dụng block cho tất cả các kiểu nội dung. Lập trình viên có thể tập trung vào thực thi sứ mệnh của mình và cung cấp các nội dung phong phú, hơn là khó khăn khi làm việc với API."
 
-#: wp-admin/about.php:400
+#: wp-admin/about.php:436
 msgid "Take advantage of a wide collection of APIs and interface components to easily create blocks with intuitive controls for your clients. Utilizing these components not only speeds up development work but also provide a more consistent, usable, and accessible interface to all users."
 msgstr "Tận dụng bộ sưu tập API và các thành phần giao diện rộng rãi để dễ dàng tạo các block với các công cụ điều khiển trực quan cho khách hàng của bạn. Việc sử dụng các thành phần này không chỉ tăng tốc công việc phát triển mà còn cung cấp giao diện phù hợp hơn, có thể sử dụng và dễ truy cập hơn cho tất cả người dùng."
 
-#: wp-admin/about.php:399
+#: wp-admin/about.php:435
 msgid "Compose"
 msgstr "Soạn thảo"
 
-#: wp-admin/about.php:392
+#: wp-admin/about.php:428
 msgid "Blocks provide a comfortable way for users to change content directly, while also ensuring the content structure cannot be easily disturbed by accidental code edits. This allows the developer to control the output, building polished and semantic markup that is preserved through edits and not easily broken."
 msgstr "Block mang lại một cách dễ dàng cho người dùng thay đổi nội dung chủ động, trong khi đảm bảo cấu trúc nội dung không thể bị ảnh hưởng bởi các lỗi sửa code. Nó cho phép lập trình viên quản lý đầu ra, xây dựng cấu trúc chặt chẽ và không dễ bị hỏng."
 
-#: wp-admin/about.php:391
+#: wp-admin/about.php:427
 msgid "Protect"
 msgstr "Bảo vệ"
 
-#: wp-admin/about.php:372
+#: wp-admin/about.php:408
 msgid "Give Twenty Nineteen a try"
 msgstr "Thử cài đặt giao diện 2019"
 
-#: wp-admin/about.php:365
+#: wp-admin/about.php:401
 msgid "Twenty Nineteen is designed to work for a wide variety of use cases. Whether you’re running a photo blog, launching a new business, or supporting a non-profit, Twenty Nineteen is flexible enough to fit your needs."
 msgstr "Giao diện 2019 được thiết kế để làm việc cho nhiều tình huống. Bất kể bạn đang chạy blog ảnh, tạo một website kinh doanh hay hỗ trợ một tổ chức phi chính phủ, giao diện này đều đáp ứng và phù hợp nhu cầu của bạn."
 
-#: wp-admin/about.php:364
+#: wp-admin/about.php:400
 msgid "Versatile design for all sites"
 msgstr "Thiết kế linh hoạt cho tất cả các kiểu website"
 
-#: wp-admin/about.php:360
+#: wp-admin/about.php:396
 msgid "Featuring ample whitespace, and modern sans-serif headlines paired with classic serif body text, Twenty Nineteen is built to be beautiful on the go. It uses system fonts to increase loading speed. No more long waits on slow networks!"
 msgstr "Với không gian rộng rãi và tiêu đề kiểu nét thanh hiện đại kết hợp với văn bản font chữ cổ điển, Giao diện 2019 được xây dựng để tôn vinh cái đẹp. Nó sử dụng font chữ hệ thống để tăng tốc độ tải web. Không phải chờ đợi lâu nếu mạng chậm!"
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:395
 msgid "Simple, type-driven layout"
 msgstr "Bố cục đơn giản và có định hướng"
 
-#: wp-admin/about.php:352
+#: wp-admin/about.php:388
 msgid "Twenty Nineteen features custom styles for the blocks available by default in 5.0. It makes extensive use of editor styles throughout the theme. That way, what you create in your content editor is what you see on the front of your site."
 msgstr "Giao diện 2019 có các kiểu dáng tùy biến cho block mặc định có sẵn trong 5.0. Nó sử dụng các nội dung từ trình soạn thảo mới trong toàn bộ giao diện. Bằng cách này, những gì bạn tạo trong trình soạn thảo cũng chính là những gì bạn thấy trên website."
 
-#: wp-admin/about.php:351
+#: wp-admin/about.php:387
 msgid "Designed for the block editor"
 msgstr "Được thiết kế cho trình soạn thảo block"
 
-#: wp-admin/about.php:341
+#: wp-admin/about.php:377
 msgid "Introducing Twenty Nineteen, a new default theme that shows off the power of the new editor."
 msgstr "Ra mắt 2019, giao diện mặc định trình diễn sức mạnh của trình soạn thảo mới."
 
-#: wp-admin/about.php:335
+#: wp-admin/about.php:371
 msgid "The front-end of Twenty Nineteen on the left, and how it looks in the editor on the right."
 msgstr "Giao diện bên ngoài của 2019 ở bên trái, và bạn nhìn thấy trình soạn thảo ở bên phải."
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:358
 msgid "A Stunning New Default Theme"
 msgstr "Giao diện mặc định mới"
 
-#: wp-admin/about.php:312
+#: wp-admin/about.php:348
 msgid "Build your first post"
 msgstr "Soạn bài viết đầu tiên"
 
-#: wp-admin/about.php:300
+#: wp-admin/about.php:336
 msgid "This new editing experience provides a more consistent treatment of design as well as content. If you&#8217;re building client sites, you can create reusable blocks. This lets your clients add new content anytime, while still maintaining a consistent look and feel."
 msgstr "Trải nghiệm mới trong soạn thảo nào cung cấp một khái niệm nhất quán về thiết kế trong nội dung. Nếu bạn làm website cho khách hàng, bạn có thể tạo những block tái sử dụng, nhằm giúp khách hàng của bạn thêm nội dung bất kì lúc nào, trong khi vẫn đảm bảo cái nhìn tổng thể."
 
-#: wp-admin/about.php:299
+#: wp-admin/about.php:335
 msgid "Freedom to Build, Freedom to Write"
 msgstr "Thoải mái xây dựng và biên tập nội dung"
 
-#: wp-admin/about.php:146
+#: wp-admin/about.php:182
 msgid "We have tons of blocks available by default, and more get added by the community every day. Here are a few of the blocks to help you get started:"
 msgstr "Chúng tôi có nhiều block có sẵn, và sẽ có thêm nhiều hơn nữa được thêm vào bởi cộng đồng mỗi ngày. Đây là một vài block để bạn bắt đầu:"
 
-#: wp-admin/about.php:144 wp-admin/about.php:304
+#: wp-admin/about.php:180 wp-admin/about.php:340
 msgid "Your browser doesn&#8217;t support HTML5 video. Here is a %1$slink to the video%2$s instead."
 msgstr "Trình duyệt của bạn không hỗ trợ HTML5 Video. Đây là %1$sliên kết tới video%2$s."
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:176
 msgid "The new block-based editor won&#8217;t change the way any of your content looks to your visitors. What it will do is let you insert any type of multimedia in a snap and rearrange to your heart&#8217;s content. Each piece of content will be in its own block; a distinct wrapper for easy maneuvering. If you&#8217;re more of an HTML and CSS sort of person, then the blocks won&#8217;t stand in your way. WordPress is here to simplify the process, not the outcome."
 msgstr "Trình soạn thảo block mới sẽ không thay đổi cách nội dung bạn hiển thị tới người dùng. Những gì nó sẽ làm là cho phép bạn chèn bất kỳ loại đa phương tiện nào trong tích tắc và sắp xếp lại nội dung chính của bạn. Mỗi phần nội dung sẽ nằm trong block riêng của nó; được bao bọc riêng biệt để dễ dàng di chuyển. Nếu bạn yêu thích và muốn sử dụng HTML và CSS, các block sẽ tha hồ tùy biến theo cách của bạn. WordPress ở đây để đơn giản hóa các bước, không phải là gây khó dễ cho bạn."
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:175
 msgid "Building with Blocks"
 msgstr "Tùy biến với Block"
 
-#: wp-admin/about.php:132
+#: wp-admin/about.php:168
 msgid "Trust that your editor looks like your website."
 msgstr "Hãy tin rằng trình soạn thảo block giống như vẻ ngoài website của bạn."
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:159
 msgid "Work across all screen sizes and devices."
 msgstr "Hỗ trợ tất cả khung màn hình và thiết bị."
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:150
 msgid "Create modern, multimedia-heavy layouts."
 msgstr "Tạo bố cục hiện đại, phong phú với nhiều media."
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:141
 msgid "Do more with fewer plugins."
 msgstr "Làm nhiều hơn với ít plugin hơn."
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:130
 msgid "You&#8217;ve successfully upgraded to WordPress 5.0! We’ve made some big changes to the editor. Our new block-based editor is the first step toward an exciting new future with a streamlined editing experience across your site. You’ll have more flexibility with how content is displayed, whether you are building your first site, revamping your blog, or write code for a living."
 msgstr "Bạn đã nâng cấp thành công lên phiên bản WordPress 5.0. Có rất nhiều thay đổi trong trình soạn thảo nội dung. Đây là bước đầu tiên tiến gần hơn tới những trải nghiệm mới mẻ trong tương lại dành cho website của bạn. Bạn sẽ thấy linh động hơn khi xây dựng nội dung, bất kể bạn đang làm website từ đầu, nâng cấp blog hay sống bằng nghề lập trình."
 
-#: wp-admin/about.php:79
+#: wp-admin/about.php:115
 msgid "Say Hello to the New Editor"
 msgstr "Xin chào Trình soạn thảo mới"
 
@@ -304,7 +309,7 @@ msgstr[0] "%s block được cập nhật."
 msgid "<strong>ERROR</strong>: \"Table Prefix\" must not be empty."
 msgstr "<strong>ERROR</strong>: \"Tiền tố bảng\" phải không được để trống."
 
-#: wp-admin/edit-form-blocks.php:161
+#: wp-admin/edit-form-blocks.php:157
 msgid "Default template"
 msgstr "Mẫu mặc định"
 
@@ -325,12 +330,16 @@ msgctxt "page title"
 msgid "About"
 msgstr "Thông tin"
 
+#: wp-admin/edit-form-blocks.php:413
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://vi.wordpress.org/plugins/classic-editor/"
+
 #: wp-admin/includes/upgrade.php:303
 #: wp-admin/includes/class-wp-internal-pointers.php:167 wp-admin/privacy.php:63
 msgid "Privacy Policy"
 msgstr "Chính sách bảo mật"
 
-#: wp-admin/about.php:443
+#: wp-admin/about.php:479
 msgid "Install the Classic Editor"
 msgstr "Cài đặt Classic Editor"
 
@@ -1303,7 +1312,7 @@ msgstr "https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory"
 msgid "Enter the address here if you <a href=\"%s\">want your site home page to be different from your WordPress installation directory</a>."
 msgstr "Nhập địa chỉ nếu bạn <a href=\"%s\">muốn địa chỉ website khác thư mục cài đặt WordPress</a>."
 
-#: wp-admin/about.php:381
+#: wp-admin/about.php:417
 msgid "Developer Happiness"
 msgstr "Cải tiến cho nhà phát triển"
 
@@ -2718,7 +2727,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Chào mừng bạn đến %s. Đây là bài viết đầu tiên của bạn. Chỉnh sửa hoặc xóa nó, sau đó bắt đầu viết blog!"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:572
+#: wp-admin/about.php:608
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Phiên bản %s</strong> đã giải quyết vấn đề bảo mật."
 
@@ -2735,15 +2744,15 @@ msgstr "Bạn có thể thay đổi hình ảnh hồ sơ tại <a href=\"%s\">Gr
 msgid "Profile Picture"
 msgstr "Ảnh đại diện"
 
-#: wp-admin/about.php:64 wp-admin/about.php:569
+#: wp-admin/about.php:64 wp-admin/about.php:605
 msgid "Maintenance and Security Releases"
 msgstr "Các phiên bản bảo trì và bảo mật"
 
-#: wp-admin/about.php:566
+#: wp-admin/about.php:602
 msgid "Security Releases"
 msgstr "Các phiên bản bảo mật"
 
-#: wp-admin/about.php:563
+#: wp-admin/about.php:599
 msgid "Maintenance Releases"
 msgstr "Các phiên bản bảo trì"
 
@@ -5205,15 +5214,15 @@ msgstr "Để xem lại các bản thảo khác nhau, <strong>kéo nút trượt
 msgid "Loading&hellip;"
 msgstr "Đang tải&hellip;"
 
-#: wp-admin/post.php:261
+#: wp-admin/post.php:262
 msgid "This item has already been deleted."
 msgstr "Bài viết này đã bị xóa."
 
-#: wp-admin/post.php:243
+#: wp-admin/post.php:244
 msgid "The item you are trying to restore from the Trash no longer exists."
 msgstr "Bài viết bạn muốn khôi phục sau khi xóa không còn tồn tại."
 
-#: wp-admin/post.php:220
+#: wp-admin/post.php:221
 msgid "The item you are trying to move to the Trash no longer exists."
 msgstr "Bài viết bạn muốn xóa không còn tồn tại."
 
@@ -5450,7 +5459,7 @@ msgstr "Bản lưu dự phòng bạn đang xem trên trình duyệt của bài v
 msgid "Draft created on %1$s at %2$s"
 msgstr "Bản nháp được tạo ngày %1$s vào lúc %2$s"
 
-#: wp-admin/post.php:230
+#: wp-admin/post.php:231
 msgid "You cannot move this item to the Trash. %s is currently editing."
 msgstr "Bạn không thể chuyển mục này vào Thùng Rác. %s đang biên tập."
 
@@ -6481,26 +6490,27 @@ msgid "Show Toolbar when viewing site"
 msgstr "Hiển thị thanh công cụ khi xem trang"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:577
+#: wp-admin/about.php:69 wp-admin/about.php:87 wp-admin/about.php:613
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:585
+#: wp-admin/about.php:621
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:72 wp-admin/about.php:589
+#: wp-admin/about.php:80 wp-admin/about.php:98 wp-admin/about.php:108
+#: wp-admin/about.php:625
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Để biết thêm thông tin, xem <a href=\"%s\">thông báo phát hành</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:581
+#: wp-admin/about.php:617
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một vấn đề về bảo mật và sửa %2$s lỗi."
@@ -6510,15 +6520,15 @@ msgid "Welcome to your WordPress Dashboard! This is the screen you will see when
 msgstr "Chào mừng đến với giao diện Quản trị của WordPress! Đây đơn giản là nơi bạn đăng nhập và truy cập vào các tính năng quản lý website của mình. Bạn có thể xem thêm thông tin trợ giúp bằng cách nhấp vào các mục Trợ giúp ở trên mỗi đầu trang."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:68 wp-admin/about.php:574
+#: wp-admin/about.php:104 wp-admin/about.php:610
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật."
 
-#: wp-admin/about.php:562
+#: wp-admin/about.php:598
 msgid "Maintenance Release"
 msgstr "Các bản Bảo Trì"
 
-#: wp-admin/about.php:565
+#: wp-admin/about.php:601
 msgid "Security Release"
 msgstr "Các bản Bảo Mật"
 
@@ -6526,7 +6536,7 @@ msgstr "Các bản Bảo Mật"
 msgid "What&#8217;s New"
 msgstr "Có gì mới"
 
-#: wp-admin/about.php:568
+#: wp-admin/about.php:604
 msgid "Maintenance and Security Release"
 msgstr "Các bản Bảo Mật và Bảo Trì"
 
@@ -6538,7 +6548,7 @@ msgstr "Màn hình này cho phép bạn định nghĩa cấu trúc liên kết t
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Chào mừng tới WordPress %1$s. <a href=\"%2$s\">Đọc tiếp</a>."
 
-#: wp-admin/about.php:455
+#: wp-admin/about.php:491
 msgid "Return to Updates"
 msgstr "Quay lại Nâng Cấp"
 
@@ -6810,11 +6820,11 @@ msgstr "Do đây là một bản cài đặt đa mạng, bạn có thể thêm t
 msgid "Welcome to WordPress %s"
 msgstr "Chào mừng tới %s của WordPress"
 
-#: wp-admin/about.php:455
+#: wp-admin/about.php:491
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Quay lại Bảng tin &rarr; Cập nhật"
 
-#: wp-admin/about.php:458
+#: wp-admin/about.php:494
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Đến Bảng tin &rarr; Trang chủ"
 
@@ -8370,12 +8380,12 @@ msgstr "Mật khẩu bạn đã chọn."
 msgid "Yes, take me to my profile page"
 msgstr "Xem trang hồ sơ cá nhân"
 
-#: wp-admin/post.php:272 wp-admin/post.php:275 wp-admin/upload.php:164
+#: wp-admin/post.php:273 wp-admin/post.php:276 wp-admin/upload.php:164
 #: wp-admin/edit.php:144 wp-admin/edit.php:147
 msgid "Error in deleting."
 msgstr "Gặp lỗi khi xóa."
 
-#: wp-admin/post.php:226 wp-admin/upload.php:137 wp-admin/edit.php:106
+#: wp-admin/post.php:227 wp-admin/upload.php:137 wp-admin/edit.php:106
 msgid "Sorry, you are not allowed to move this item to the Trash."
 msgstr "Bạn không có quyền bỏ vào thùng rác."
 
@@ -8391,15 +8401,15 @@ msgid "%s comment restored from the Trash"
 msgid_plural "%s comments restored from the Trash"
 msgstr[0] "Đã khôi phục %s bình luận từ Thùng rác"
 
-#: wp-admin/post.php:234 wp-admin/upload.php:140 wp-admin/edit.php:114
+#: wp-admin/post.php:235 wp-admin/upload.php:140 wp-admin/edit.php:114
 msgid "Error in moving to Trash."
 msgstr "Gặp lỗi khi bỏ vào thùng rác."
 
-#: wp-admin/post.php:249 wp-admin/upload.php:149 wp-admin/edit.php:125
+#: wp-admin/post.php:250 wp-admin/upload.php:149 wp-admin/edit.php:125
 msgid "Sorry, you are not allowed to restore this item from the Trash."
 msgstr "Bạn không có quyền lấy lại từ thùng rác."
 
-#: wp-admin/post.php:252 wp-admin/upload.php:152 wp-admin/edit.php:128
+#: wp-admin/post.php:253 wp-admin/upload.php:152 wp-admin/edit.php:128
 msgid "Error in restoring from Trash."
 msgstr "Gặp lỗi khi lấy lại từ thùng rác."
 
@@ -8609,7 +8619,7 @@ msgstr "Xem tất cả"
 msgid "Please enter a valid menu name."
 msgstr "Vui lòng nhập tên hợp lệ cho Menu."
 
-#: wp-admin/about.php:458
+#: wp-admin/about.php:494
 msgid "Go to Dashboard"
 msgstr "Xem bảng tin"
 
@@ -9599,7 +9609,7 @@ msgstr "Không tìm được thành viên nào!"
 msgid "Update Themes"
 msgstr "Cập nhật giao diện"
 
-#: wp-admin/about.php:292
+#: wp-admin/about.php:328
 msgid "More"
 msgstr "Thêm"
 
@@ -11398,7 +11408,7 @@ msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s bài viết được cập nhật."
 
-#: wp-admin/edit-tags.php:100 wp-admin/post.php:267 wp-admin/themes.php:43
+#: wp-admin/edit-tags.php:100 wp-admin/post.php:268 wp-admin/themes.php:43
 #: wp-admin/upload.php:161 wp-admin/edit.php:140
 msgid "Sorry, you are not allowed to delete this item."
 msgstr "Bạn không được phép xóa cái này."
