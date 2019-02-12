@@ -115,7 +115,8 @@ body.unicase-style-2 .main-header .site-branding {
     font-size: 15px;
 }
 
-#secondary #unicase_nav_menu-1 .widget-title {
+#secondary #unicase_nav_menu-1 .widget-title,
+#secondary #unicase_nav_menu-2 .widget-title {
     background-color: #30a11e;
 }
 
