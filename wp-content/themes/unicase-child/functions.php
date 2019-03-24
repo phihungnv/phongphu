@@ -142,3 +142,36 @@ function custom_main_products_callback( $atts ) {
     }
 }
 add_shortcode( 'custom_main_products', 'custom_main_products_callback' );
+
+function shop_policy_callback () {
+    ob_start();
+    ?>
+        <ul class="hidden-xs shop-policy">
+            <li>
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2018/12/icon_vanchuyen.png">
+                <p>GIAO HÀNG FREE 20KM TRỞ LẠI</p>
+            </li>
+            <li>
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2018/12/icon_thanhtoan.png">
+                <p>THANH TOÁN KHI NHẬN HÀNG</p>
+            </li>
+            <li>
+                <img src="<?php echo get_home_url() ?>/wp-content/uploads/2018/12/icon_dienthoai.png">
+                <p>Tel: 0985 675 611 / 0988 964 461<br/>MOBILE: 0985 675 611</p>
+            </li>
+        </ul>
+    <?php
+
+    return ob_get_clean();
+}
+add_shortcode( 'shop_policy', 'shop_policy_callback' );
+
+register_sidebar( apply_filters( 'unicase_register_sidebar_args', array(
+    'name'          => esc_html__( 'Product Sidebar', 'unicase' ),
+    'id'            => 'single-product-sidebar',
+    'description'   => '',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>',
+) ) );
