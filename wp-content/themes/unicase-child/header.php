@@ -34,7 +34,8 @@
 			 * @hooked unicase_primary_navigation - 50
 			 * @hooked unicase_header_cart - 60
 			 */
-        remove_action('unicase_header',	'unicase_top_bar',10);
+		remove_action('unicase_header', 'unicase_top_bar', 10);
+		remove_action('unicase_header', 'unicase_header_cart', 60);
 		do_action( 'unicase_header' ); ?>
 	</header><!-- /.site-header -->
 	<!-- ============================================================= HEADER : END ============================================================= -->

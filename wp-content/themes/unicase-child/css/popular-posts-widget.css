@@ -1,0 +1,69 @@
+.widget.ajax_hits_counter_popular_posts_widget {
+    border-bottom: 1px solid #ccc;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget h3.widget-title {
+    padding: 10px;
+    color: #fff;
+    background-color: #30a11e;
+    margin-bottom: 0;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget ul {
+    margin-bottom: 0;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content {
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    display: flex;
+    flex-direction: row;
+    border-left:  1px solid #ccc;
+    border-right:  1px solid #ccc;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget li:last-of-type .entry-content {
+    border-bottom: none;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content .new-image {
+    margin-right: 10px;
+    display: block;
+    width: 100px;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content .new-image img {
+    width: 100px;
+    height: auto;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content .new-short-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content .new-title {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color:  #373737;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content .new-title:hover {
+    color: #30a11e;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content p.new-post-date {
+    font-size: 13px;
+    margin-bottom: 0;
+    color:  #373737;
+}
+
+.widget.ajax_hits_counter_popular_posts_widget .entry-content p.new-post-date .fa-clock-o {
+    margin-right: 5px;
+}

@@ -1,0 +1,130 @@
+
+---Downloaded files---
+The import files for: Unicase-v1 were successfully downloaded!
+Initial max execution time = 300000
+Files info:
+Site URL = http://phongphu.local
+Data file = C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/dummy-data.xml
+Widget file = C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/widgets.wie
+Customizer file = not defined!
+Redux files:
+unicase_options -> C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/redux-options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Page Sidebar : 
+
+Vertical Menu - Categories - Imported
+woocommerce_products - Special Products - Site does not support widget
+woocommerce_products - Sale Products - Site does not support widget
+widget_products_carousel - Hot Deals - Site does not support widget
+Text - No Title - Imported
+
+Shop Sidebar : 
+
+unicase_products_filter - Shop by - Site does not support widget
+Text - No Title - Imported
+yith-woocompare-widget - COMPARE - Site does not support widget
+
+Product Filters : 
+
+woocommerce_product_categories - Category - Site does not support widget
+woocommerce_price_filter - Price Slider - Site does not support widget
+woocommerce_layered_nav - Manufactures - Site does not support widget
+woocommerce_layered_nav - Colors - Site does not support widget
+woocommerce_layered_nav_filters - Active Filters - Site does not support widget
+
+Footer Top Widgets : 
+
+mc4wp_form_widget - Newsletter - Site does not support widget
+Text - Opening Time - Imported
+Text - Information - Imported
+
+Footer Bottom Widgets : 
+
+Navigation Menu - Pre-Built Pages - Imported
+Navigation Menu - Shop Fullwidth - Imported
+Navigation Menu - Shop Sidebar - Imported
+Navigation Menu - WooCommerce Shortcodes - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: unicase_options finished successfully!
+
+---pt-ocdi/after_import---
+

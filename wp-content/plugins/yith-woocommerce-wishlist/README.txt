@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: wishlist, woocommerce, products, yit, e-commerce, shop, ecommerce wishlist, yith, woocommerce wishlist, shop wishlist
 Requires at least: 4.0
-Tested up to: 5.0.0
-Stable tag: 2.2.7
+Tested up to: 5.1.1
+Stable tag: 2.2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,6 +108,25 @@ you should ask theme developers to update custom templates and replace the old t
 4. The Wishlist settings page
 
 == Changelog ==
+
+= 2.2.9 - Released: Apr, 11 - 2019 =
+
+* New: WooCommerce 3.6.x support
+* New: added a WhatsApp share button on mobile
+* Tweak: using add_inline_style to include custom css code
+* Tweak: no longer adding empty style tag to the page
+* Update: Spanish language
+* Fix: get the correct value for wishlist name
+* Fix: deprecated notice caused by product id attribute being accessed directly
+
+= 2.2.8 - Released: Feb, 11 - 2019 =
+
+* New: added support to WooCommerce 3.5.4
+* Update: internal plugin framework
+* Fix: added explicit array casting on shortcode to avoid warning
+* Fix: don't add custom classes to body if wishlist page is not set
+* Fix: changed a wrong method in the enqueue style
+* Dev: add filter yith_wcwl_email_share_subject
 
 = 2.2.7 - Released: Dec, 21 - 2018 =
 
@@ -503,13 +522,11 @@ Full documentation is available [here](http://yithemes.com/docs-plugins/yith-woo
 
 == Upgrade notice ==
 
-= 2.2.6 - Released: Dec, 21 - 2018 =
+= 2.2.8 - Released: Feb, 11 - 2019 =
 
-* New: added support to WordPress 5.0
-* New: added support to WooCommerce 3.5.3
-* New: added Gutenberg blocks for plugin shortcodes
+* New: added support to WooCommerce 3.5.4
 * Update: internal plugin framework
-* Update: italian language
-* Fix: preventing sql error when hidden products list just contains 0 id
-* Fix: problem with sprintf on backend
-* Dev: added product param to yith_free_text filter
+* Fix: added explicit array casting on shortcode to avoid warning
+* Fix: don't add custom classes to body if wishlist page is not set
+* Fix: changed a wrong method in the enqueue style
+* Dev: add filter yith_wcwl_email_share_subject

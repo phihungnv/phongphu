@@ -460,8 +460,8 @@ function redux_apply_shop_page_layout( $args ) {
 
 			$args['layout'] 				= 'layout-sidebar';
 			$args['layout_name'] 			= 'unicase-left-sidebar';
-			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-lg-9';
-			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3';
+			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3';
+			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3 col-md-pull-9 col-lg-pull-9';
 
 		} elseif ( $unicase_options['shop_page_layout'] == 'right-sidebar' ) {
 
@@ -581,8 +581,8 @@ function redux_apply_product_single_layout( $args ) {
 
 			$args['layout'] 				= 'layout-sidebar';
 			$args['layout_name'] 			= 'unicase-left-sidebar';
-			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-lg-9';
-			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3';
+			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3';
+			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3 col-md-pull-9 col-lg-pull-9';
 
 		} elseif ( $unicase_options['single_product_layout'] == 'right-sidebar' ) {
 
@@ -627,8 +627,8 @@ function redux_apply_blog_layout( $args ) {
 
 			$args['layout'] 				= 'layout-sidebar';
 			$args['layout_name'] 			= 'unicase-left-sidebar';
-			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-lg-9';
-			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3';
+			$args['content_area_classes']	= 'col-sm-12 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3';
+			$args['sidebar_area_classes']	= 'col-sm-12 col-md-3 col-lg-3 col-md-pull-9 col-lg-pull-9';
 
 		} elseif ( $unicase_options['blog_layout'] == 'right-sidebar' ) {
 

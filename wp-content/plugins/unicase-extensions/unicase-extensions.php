@@ -5,7 +5,7 @@
  * Description:    	This selection of extensions compliment our lean and mean theme for WooCommerce, Unicase. Please note: they don’t work with any WordPress theme, just Unicase.
  * Author:         	MadrasThemes
  * Author URL:     	https://madrasthemes.com/
- * Version:        	1.6.2
+ * Version:        	1.6.3
  * Text Domain: 	unicase-extensions
  * Domain Path: 	/languages
  * WC tested up to: 3.5.0

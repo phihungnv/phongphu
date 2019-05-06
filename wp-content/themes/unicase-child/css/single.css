@@ -1,0 +1,22 @@
+.single-post #comments {
+    padding-top: 0;
+}
+
+.single-post .rpbt_shortcode h3 {
+    display: inline-block;
+    color: white;
+    background-color: #30a11e;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.single-post .rpbt_shortcode h3:after {
+    content: ' ';
+    display: block;
+    width: calc(100% - 30px);
+    border-bottom: 2px solid #30a11e;
+    position: absolute;
+    left: 15px;
+    margin-top: 10px;
+}

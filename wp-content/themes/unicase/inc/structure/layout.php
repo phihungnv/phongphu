@@ -27,6 +27,7 @@ if( ! function_exists( 'unicase_get_page_layout_args' ) ) {
 		$wishlist_page_id = get_option( 'yith_wcwl_wishlist_page_id' );
 
 		if( is_woocommerce_activated() && is_woocommerce() ) {
+
 			if( is_product() ) {
 
 				$style = unicase_single_product_style();
@@ -36,8 +37,8 @@ if( ! function_exists( 'unicase_get_page_layout_args' ) ) {
 					'page_name'				=> 'woocommerce-single-product',
 					'site_content_classes'	=> '',
 					'container_classes'		=> 'container inner-xs ',
-					'content_area_classes'	=> 'col-sm-12 col-md-12 col-lg-9',
-					'sidebar_area_classes'	=> 'col-sm-12 col-md-12 col-lg-3',
+					'content_area_classes'	=> 'col-sm-12 col-md-12 col-lg-9 col-lg-push-3',
+					'sidebar_area_classes'	=> 'col-sm-12 col-md-12 col-lg-3 col-lg-pull-9',
 					'site_main_classes'		=> $style,
 				);
 
@@ -48,8 +49,8 @@ if( ! function_exists( 'unicase_get_page_layout_args' ) ) {
 					'page_name'				=> 'shop-page',
 					'site_content_classes'	=> '',
 					'container_classes'		=> 'container inner-xs ',
-					'content_area_classes'	=> 'col-sm-12 col-md-9 col-lg-9',
-					'sidebar_area_classes'	=> 'col-sm-12 col-md-3 col-lg-3',
+					'content_area_classes'	=> 'col-sm-12 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3',
+					'sidebar_area_classes'	=> 'col-sm-12 col-md-3 col-lg-3 col-md-pull-9 col-lg-pull-9',
 					'site_main_classes'		=> '',
 					'has_jumbotron'			=> true
 				);
@@ -147,8 +148,8 @@ if( ! function_exists( 'unicase_get_page_layout_args' ) ) {
 			if( isset( $page_meta_values['enable_sidebar'] ) && $page_meta_values['enable_sidebar'] == '1' ) {
 				$args['layout'] = 'layout-sidebar';
 				$args['layout_name'] = 'unicase-left-sidebar';
-				$args['content_area_classes'] .= ' col-sm-12 col-md-9 col-lg-9';
-				$args['sidebar_area_classes'] .= ' col-sm-12 col-md-3 col-lg-3';
+				$args['content_area_classes'] .= ' col-sm-12 col-md-9 col-md-push-3 col-lg-9 col-lg-push-3';
+				$args['sidebar_area_classes'] .= ' col-sm-12 col-md-3 col-lg-3 col-md-pull-9 col-lg-pull-9';
 			}
 
 			if( isset( $page_meta_values['page_sidebar'] ) && $page_meta_values['page_sidebar'] == '1' ) {

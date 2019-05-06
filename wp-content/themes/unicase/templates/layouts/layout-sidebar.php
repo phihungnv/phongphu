@@ -10,6 +10,7 @@ if( !empty( $args ) ) {
 }
 
 extract( $args );
+
 ?>
 
 <div class="<?php echo esc_attr( apply_filters( 'unicase_container_classes', 'container' ) ); ?>">

@@ -54,8 +54,8 @@ add_action( 'unicase_header',					'unicase_primary_navigation',			30 );
 add_action( 'unicase_header',					'unicase_handheld_header',				40 );
 
 add_action( 'unicase_main_header_content', 		'unicase_site_branding',				10 );
-//add_action( 'unicase_main_header_content', 		'unicase_top_search_holder',			20 );
-//add_action( 'unicase_main_header_content', 		'unicase_header_cart',					30 );
+add_action( 'unicase_main_header_content', 		'unicase_top_search_holder',			20 );
+add_action( 'unicase_main_header_content', 		'unicase_header_cart',					30 );
 
 add_action( 'unicase_handheld_header',			'unicase_site_branding',				10 );
 add_action( 'unicase_handheld_header',			'unicase_handheld_navigation',			20 );

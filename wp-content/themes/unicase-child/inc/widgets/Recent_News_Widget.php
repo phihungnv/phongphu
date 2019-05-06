@@ -33,11 +33,11 @@ class Recent_News_Widget extends WP_Widget
 
         foreach ($recent_news as $new) { ?>
             <div id="new-<?php echo $new['ID'] ?>" class="recent-new-item">
-                <a href="<?php echo get_permalink($new['ID']) ?>" class="new-image">
+                <a href="<?php echo get_permalink($new['ID']) ?>" title="<?php echo $new['post_title'] ?>" class="new-image">
                     <img src="<?php echo get_the_post_thumbnail_url($new['ID'])?>">
                 </a>
                 <div class="new-short-content">
-                    <a class="new-title" href="<?php echo get_permalink($new['ID']) ?>">
+                    <a class="new-title" href="<?php echo get_permalink($new['ID']) ?>" title="<?php echo $new['post_title'] ?>">
                         <?php echo $new['post_title'] ?>
                     </a>
                     <p class="new-post-date">

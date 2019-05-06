@@ -1,0 +1,1235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Catalog Mode\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2018-12-19 13:02+0000\n"
+"PO-Revision-Date: 2018-12-19 13:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:201
+#: plugin-options/premium-settings-options.php:404
+#: plugin-options/vendor/settings-options.php:341
+msgid "None"
+msgstr "Geen"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:205
+msgid "YIT Contact Form"
+msgstr "YIT Contact Form"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:209
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:213
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:232
+#: class.yith-woocommerce-catalog-mode-premium.php:262
+#: class.yith-woocommerce-catalog-mode-premium.php:292
+msgid "Plugin not activated or not installed"
+msgstr "Plugin is niet geactiveerd of geïnstalleerd"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:242
+#: class.yith-woocommerce-catalog-mode-premium.php:272
+#: class.yith-woocommerce-catalog-mode-premium.php:302
+msgid "No contact form found"
+msgstr "Geen contactformulier gevonden"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:343
+#: class.yith-woocommerce-catalog-mode-premium.php:397
+msgid "Related product"
+msgstr "Gerelateerde producten"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:536
+msgid "Show \"Add to cart\" button anyway"
+msgstr "Toon \"Toevoegen aan winkelwagen\" knop toch"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:537
+msgid "Show price anyway"
+msgstr "Toon de prijs toch"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:542
+msgid "Hide \"Add to cart\" button anyway"
+msgstr "Verberg \"Toevoegen aan winkelwagen\" knop toch"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:546
+msgid "Hide price anyway"
+msgstr "Toon de prijs toch"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:560
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:91
+msgid "Catalog Mode Options"
+msgstr "Catalogus modus opties"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:581
+msgid "Text replacing price"
+msgstr "Tekst vervangende prijs"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:603
+msgid "Exclude products from custom button"
+msgstr "Producten uitsluiten van aangepaste knop"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:613
+#: templates/admin/custom-url-table.php:704
+msgid "Enable custom button URL override"
+msgstr "Inschakelen aangepaste knop URL overschrijven"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:623
+#: templates/admin/custom-url-table.php:712
+msgid "URL protocol type"
+msgstr "URL protocol type"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:628
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:164
+#: plugin-options/premium-settings-options.php:422
+#: plugin-options/vendor/settings-options.php:359
+#: templates/admin/custom-url-table.php:716
+msgid "Generic URL"
+msgstr "Generieke URL"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:630
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:165
+#: plugin-options/premium-settings-options.php:423
+#: plugin-options/vendor/settings-options.php:360
+#: templates/admin/custom-url-table.php:717
+msgid "E-mail address"
+msgstr "E-mailadres"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:632
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:166
+#: plugin-options/premium-settings-options.php:424
+#: plugin-options/vendor/settings-options.php:361
+#: templates/admin/custom-url-table.php:718
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:634
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:167
+#: plugin-options/premium-settings-options.php:425
+#: plugin-options/vendor/settings-options.php:362
+#: templates/admin/custom-url-table.php:719
+msgid "Skype contact"
+msgstr "Skype contact"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:641
+#: plugin-options/premium-settings-options.php:123
+#: plugin-options/premium-settings-options.php:132
+#: plugin-options/vendor/settings-options.php:124
+#: plugin-options/vendor/settings-options.php:133
+#: templates/admin/custom-url-table.php:725
+msgid "URL Link"
+msgstr "URL link"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:650
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:179
+#: plugin-options/premium-settings-options.php:434
+#: plugin-options/vendor/settings-options.php:371
+#: templates/admin/custom-url-table.php:735
+msgid "Open link in new tab (Only for Generic URL)"
+msgstr "Open link in nieuw tabblad (uitsluitend voor generieke URL)"
+
+#: class.yith-woocommerce-catalog-mode-premium.php:1450
+msgid "Price is hidden!"
+msgstr "Prijs is verborgen!"
+
+#: class.yith-woocommerce-catalog-mode.php:154
+#: class.yith-woocommerce-catalog-mode.php:164
+#: includes/class-ywctm-multivendor.php:224
+msgid "Settings"
+msgstr "Instellingen"
+
+#: class.yith-woocommerce-catalog-mode.php:155
+#: includes/class-ywctm-multivendor.php:225
+msgid "Exclusion List"
+msgstr "Uitzonderingen lijst"
+
+#: class.yith-woocommerce-catalog-mode.php:156
+msgid "Texts replacing price"
+msgstr "Teksten ter vervanging van de prijs"
+
+#: class.yith-woocommerce-catalog-mode.php:157
+#: includes/class-ywctm-multivendor.php:226
+msgid "Custom Button Url List"
+msgstr "Aangepaste knop URL Lijst"
+
+#: class.yith-woocommerce-catalog-mode.php:160
+msgid "Vendor Exclusion List"
+msgstr "Verkoper uitzonderingen lijst"
+
+#: class.yith-woocommerce-catalog-mode.php:165
+msgid "Premium Version"
+msgstr "Premium Versie"
+
+#: class.yith-woocommerce-catalog-mode.php:172
+#: includes/class-ywctm-multivendor.php:233
+msgid "Catalog Mode"
+msgstr "Catalogus modus"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:106
+msgid "Show \"Add to cart\" button for this product anyway"
+msgstr "Toon \"Toevoegen aan winkelwagen\" knop toch voor dit product"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:107
+msgid "Show price for this product anyway"
+msgstr "Toon toch de prijs van dit product"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:110
+msgid "Hide \"Add to cart\" button for this product anyway"
+msgstr "Verberg \"Toevoegen aan winkelwagen\" knop toch voor dit product"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:114
+msgid "Hide price for this product anyway"
+msgstr "Verberg prijs voor dit product toch"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:120
+#: plugin-options/premium-settings-options.php:245
+#: plugin-options/settings-options.php:37
+#: plugin-options/vendor/settings-options.php:193
+msgid "\"Add to cart\" button"
+msgstr "\"Toevoegen aan winkelwagen\" knop"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:125
+msgid "Product price"
+msgstr "Product prijs"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:135
+msgid ""
+"Note: if you hide the price, also \"Add to cart\" button will be "
+"automatically hidden."
+msgstr ""
+"Let op: Als u de prijs verbergt, verbergt u ook \"Toevoegen aan winkelwagen"
+"\" automatisch."
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:150
+msgid "Custom button exclusion"
+msgstr "Aangepaste knop uitzondering"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:151
+msgid "Exclude the product from showing the custom button"
+msgstr "Sluit het product uit van weergave in de aangepaste knop"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:155
+msgid "Custom button URL override"
+msgstr "Aangepaste knop URL overschrijven"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:156
+msgid "Override global URL of custom button"
+msgstr "Overschrijf globale URL van aangepaste knop"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:160
+msgid "Custom button URL protocol type"
+msgstr "Aangepaste knop URL protocol type"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:161
+msgid "Specify the type of the URL"
+msgstr "Specificeer het type URL"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:172
+msgid "Custom button URL link"
+msgstr "Aangepaste knop URL link"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:173
+msgid "Specify the URL"
+msgstr "Specificeer de URL"
+
+#: includes/admin/meta-boxes/class-ywctm-meta-box.php:178
+msgid "New tab"
+msgstr "Nieuwe tab"
+
+#: includes/class-ywctm-multivendor.php:227
+msgid "Alternative Text List"
+msgstr "Alternatieve tekst lijst"
+
+#: init.php:25
+msgid ""
+"YITH WooCommerce Catalog Mode is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Catalogus Modus is ingeschakeld maar niet werkend. Het "
+"heeft WooCommerce nodig om te werken."
+
+#: plugin-options/premium-settings-options.php:27
+#: plugin-options/vendor/settings-options.php:26
+msgid "Form Plugin"
+msgstr "Van plugin"
+
+#: plugin-options/premium-settings-options.php:29
+#: plugin-options/vendor/settings-options.php:28
+msgid ""
+"Choose from which activated plugin you want to display the inquiry form in "
+"product page"
+msgstr ""
+"Kies van welke geactiveerde plugin het vragenformulier wilt weergeven op de "
+"product pagina"
+
+#: plugin-options/premium-settings-options.php:35
+#: plugin-options/vendor/settings-options.php:34
+msgid "Form Position"
+msgstr "Van positie"
+
+#: plugin-options/premium-settings-options.php:37
+#: plugin-options/vendor/settings-options.php:36
+msgid "Choose where to show the inquiry form in product page"
+msgstr "Kies waar u het vragenformulier wilt weergeven op de productpagina"
+
+#: plugin-options/premium-settings-options.php:39
+#: plugin-options/vendor/settings-options.php:38
+msgid "Tab"
+msgstr "Tabblad"
+
+#: plugin-options/premium-settings-options.php:40
+#: plugin-options/vendor/settings-options.php:39
+msgid "After price"
+msgstr "Na prijs"
+
+#: plugin-options/premium-settings-options.php:41
+#: plugin-options/vendor/settings-options.php:40
+msgid "After short description"
+msgstr "Na korte beschrijving"
+
+#: plugin-options/premium-settings-options.php:42
+#: plugin-options/vendor/settings-options.php:41
+msgid "After \"Add to cart\" button"
+msgstr "Na \"Toevoegen aan winkelwagen\" knop"
+
+#: plugin-options/premium-settings-options.php:50
+#: plugin-options/premium-settings-options.php:58
+#: plugin-options/premium-settings-options.php:66
+#: plugin-options/vendor/settings-options.php:49
+#: plugin-options/vendor/settings-options.php:57
+#: plugin-options/vendor/settings-options.php:65
+msgid "Choose the form to display"
+msgstr "Kies het formulier om weer te geven"
+
+#: plugin-options/premium-settings-options.php:73
+#: plugin-options/vendor/settings-options.php:72
+msgid "Tab title"
+msgstr "Tabblad titel"
+
+#: plugin-options/premium-settings-options.php:75
+#: plugin-options/vendor/settings-options.php:74
+msgid "Inquiry form"
+msgstr "Vragenformulier"
+
+#: plugin-options/premium-settings-options.php:81
+#: plugin-options/vendor/settings-options.php:80
+msgid "Product Permalink"
+msgstr "Product permalink"
+
+#: plugin-options/premium-settings-options.php:83
+#: plugin-options/vendor/settings-options.php:82
+msgid ""
+"Add the product permalink to the email body (it works only with Contact Form "
+"7 and Gravity Forms)."
+msgstr ""
+"Voeg de product permalink toe aan de e-mail hoofdtekst (werkt uitsluitend "
+"met Contact Form 7 en Gravity Forms)."
+
+#: plugin-options/premium-settings-options.php:116
+#: plugin-options/vendor/settings-options.php:117
+msgid ""
+"To use this feature, YIT Contact Form, Contact Form 7 or Gravity Forms must "
+"be installed and activated."
+msgstr ""
+"Om deze feature te gebruiken, moeten YIT Contact Form, Contact Form 7 of "
+"Gravity Forms zijn geïnstalleerd en geactiveerd."
+
+#: plugin-options/premium-settings-options.php:126
+#: plugin-options/premium-settings-options.php:134
+#: plugin-options/vendor/settings-options.php:127
+#: plugin-options/vendor/settings-options.php:135
+msgid "Specify the URL (Optional)"
+msgstr "Specificeer de URL (optioneel)"
+
+#: plugin-options/premium-settings-options.php:150
+msgid "Admin Override"
+msgstr "Admin overschrijven"
+
+#: plugin-options/premium-settings-options.php:152
+msgid "Administrator settings override the vendors' settings"
+msgstr "Administrator instellingen overschrijven de verkopers instellingen"
+
+#: plugin-options/premium-settings-options.php:161
+msgid ""
+"Do not apply to vendors in the  %s\"Vendor Exclusion List\" %s(Exclusion)"
+msgstr ""
+"Niet toepassen op verkopers in de %s\"verkoper uitzonderingen lijst\" "
+"%s(Uitzondering)"
+
+#: plugin-options/premium-settings-options.php:169
+msgid ""
+"Apply only to vendors  in the %s\"Vendor Exclusion List\"%s (Reverse "
+"Exclusion)"
+msgstr ""
+"Uitsluitend toepassen op verkopers in de %s\"verkoper uitzonderingen lijst\" "
+"%s(Omgekeerde uitzondering)"
+
+#: plugin-options/premium-settings-options.php:180
+#: plugin-options/settings-options.php:18
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: plugin-options/premium-settings-options.php:184
+#: plugin-options/settings-options.php:22
+msgid "Enable YITH WooCommerce Catalog Mode"
+msgstr "YITH WooCommerce Catalogus Modus inschakelen"
+
+#: plugin-options/premium-settings-options.php:195
+#: plugin-options/settings-options.php:33
+#: plugin-options/vendor/settings-options.php:145
+msgid "Catalog Mode Settings"
+msgstr "Catalogus Modus Instellingen"
+
+#: plugin-options/premium-settings-options.php:199
+#: plugin-options/vendor/settings-options.php:149
+msgid "Price and \"Add to cart\" button"
+msgstr "Prijs en \"Toevoegen aan winkelwagen\" knop"
+
+#: plugin-options/premium-settings-options.php:201
+#: plugin-options/vendor/settings-options.php:151
+msgid "Hide"
+msgstr "Verberg"
+
+#: plugin-options/premium-settings-options.php:207
+#: plugin-options/vendor/settings-options.php:157
+msgid "Insert a text that will replace the product price (optional)"
+msgstr "Voeg een tekst in die de productprijs vervangt (optioneel)"
+
+#: plugin-options/premium-settings-options.php:213
+#: plugin-options/premium-settings-options.php:263
+#: plugin-options/vendor/settings-options.php:163
+#: plugin-options/vendor/settings-options.php:211
+msgid "Hide product variations"
+msgstr "Verberg product variaties"
+
+#: plugin-options/premium-settings-options.php:222
+#: plugin-options/vendor/settings-options.php:170
+msgid ""
+"Show price and \"Add to cart\" options in items of the %s\"Exclusion List"
+"\"%s (Exclusion)"
+msgstr ""
+"Toon prijs en \"toevoegen aan winkelwagen\" opties in ites van de %s"
+"\"Uitzonderingen lijst\"%s (Uitzondering)"
+
+#: plugin-options/premium-settings-options.php:230
+#: plugin-options/vendor/settings-options.php:178
+msgid ""
+"Hide price only in items of the %s\"Exclusion List\"%s (Reverse Exclusion)"
+msgstr ""
+"Verberg prijs alleen in items van de %s\"Uitzonderingen lijst\"%s "
+"(omgekeerde uitzondering)"
+
+#: plugin-options/premium-settings-options.php:238
+#: plugin-options/premium-settings-options.php:279
+#: plugin-options/vendor/settings-options.php:186
+#: plugin-options/vendor/settings-options.php:227
+msgid ""
+"Hide \"Add to cart\" button only in items of the %s\"Exclusion List\"%s "
+"(Reverse Exclusion)"
+msgstr ""
+"Vergerg \"Toevoegen aan winkelwagen\" knop alleen in items van de %s"
+"\"Uitzonderingen lijst\"%s (omgekeerde uitzondering)"
+
+#: plugin-options/premium-settings-options.php:247
+#: plugin-options/settings-options.php:39
+#: plugin-options/vendor/settings-options.php:195
+msgid "Hide in product detail page"
+msgstr "Verberg in product details pagina"
+
+#: plugin-options/premium-settings-options.php:254
+#: plugin-options/settings-options.php:46
+#: plugin-options/vendor/settings-options.php:202
+msgid "Hide in other shop pages"
+msgstr "Verberg in andere winkel pagina´s"
+
+#: plugin-options/premium-settings-options.php:261
+#: plugin-options/vendor/settings-options.php:209
+msgid "Variable products"
+msgstr "Variabele producten"
+
+#: plugin-options/premium-settings-options.php:271
+#: plugin-options/vendor/settings-options.php:219
+msgid ""
+"Show \"Add to cart\" in items of the  %s\"Exclusion List\" %s(Exclusion)"
+msgstr ""
+"Toon \"Toevoegen aan winkelwagen\" in items van de %s\"Uitzonderingen lijst"
+"\" %s(Uitzondering)"
+
+#: plugin-options/premium-settings-options.php:286
+#: plugin-options/vendor/settings-options.php:234
+msgid "Affected users"
+msgstr "Getroffen gebruikers"
+
+#: plugin-options/premium-settings-options.php:288
+#: plugin-options/vendor/settings-options.php:236
+msgid "Users who will not see the price and the \"Add to cart\" button"
+msgstr ""
+"Gebruikers die de prijs en \"Toevoegen aan winkelwagen\" knop niet zullen "
+"zien"
+
+#: plugin-options/premium-settings-options.php:290
+#: plugin-options/vendor/settings-options.php:238
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#: plugin-options/premium-settings-options.php:291
+#: plugin-options/vendor/settings-options.php:239
+msgid "Unregistered users only"
+msgstr "Alleen niet geregistreerde gebruikers"
+
+#: plugin-options/premium-settings-options.php:292
+#: plugin-options/vendor/settings-options.php:240
+msgid "Selected countries"
+msgstr "Geselecteerde landen"
+
+#: plugin-options/premium-settings-options.php:298
+#: plugin-options/vendor/settings-options.php:246
+msgid "Select countries"
+msgstr "Selecteer landen"
+
+#: plugin-options/premium-settings-options.php:301
+#: plugin-options/vendor/settings-options.php:249
+msgid "Search for a country&hellip;"
+msgstr "Zoeken naar een land&hellip;"
+
+#: plugin-options/premium-settings-options.php:302
+#: plugin-options/vendor/settings-options.php:250
+msgid ""
+"Users from these countries will not see price and \"Add to cart\" button"
+msgstr ""
+"Gebruikers van deze landen zullen de prijs en \"toevoegen aan winkelwagen\" "
+"knop niet zien"
+
+#: plugin-options/premium-settings-options.php:306
+#: plugin-options/vendor/settings-options.php:254
+msgid "Reverse Selection"
+msgstr "Omgekeerde selectie"
+
+#: plugin-options/premium-settings-options.php:308
+#: plugin-options/vendor/settings-options.php:256
+msgid ""
+"Users from countries that have not been listed above will not see price and "
+"\"Add to cart\" button"
+msgstr ""
+"Gebruikers van landen die niet zijn genoemd hierboven, zullen de prijs \"en "
+"toevoegen aan winkelwagen\" knop niet zien"
+
+#: plugin-options/premium-settings-options.php:314
+#: plugin-options/settings-options.php:53
+msgid "Admin View"
+msgstr "Admin weergave"
+
+#: plugin-options/premium-settings-options.php:316
+#: plugin-options/settings-options.php:55
+msgid "Enable Catalog Mode also for administrators"
+msgstr "Catalogus Modus ook voor administrators inschakelen"
+
+#: plugin-options/premium-settings-options.php:328
+#: plugin-options/vendor/settings-options.php:265
+msgid "Inquiry Form"
+msgstr "Vragenformulier"
+
+#: plugin-options/premium-settings-options.php:344
+#: plugin-options/vendor/settings-options.php:281
+msgid "Custom Button"
+msgstr "Aangepaste knop"
+
+#: plugin-options/premium-settings-options.php:346
+#: plugin-options/vendor/settings-options.php:283
+msgid ""
+"To use a custom button, you have to hide the \"Add to cart\" button and/or "
+"the price"
+msgstr ""
+"Gebruik een aangepaste knop, u moet de \"Toevoegen aan winkelwagen\" en/of "
+"prijs verbergen"
+
+#: plugin-options/premium-settings-options.php:349
+#: plugin-options/premium-settings-options.php:357
+#: plugin-options/vendor/settings-options.php:286
+#: plugin-options/vendor/settings-options.php:294
+msgid "Custom button"
+msgstr "Aangepaste knop"
+
+#: plugin-options/premium-settings-options.php:351
+#: plugin-options/vendor/settings-options.php:288
+msgid "Show in product detail page"
+msgstr "Toon in product detail pagina"
+
+#: plugin-options/premium-settings-options.php:359
+#: plugin-options/vendor/settings-options.php:296
+msgid "Show in shop pages"
+msgstr "Toon in winkel pagina´s"
+
+#: plugin-options/premium-settings-options.php:365
+#: plugin-options/vendor/settings-options.php:302
+msgid "Button text"
+msgstr "Knop tekst"
+
+#: plugin-options/premium-settings-options.php:371
+#: plugin-options/vendor/settings-options.php:308
+msgid "Color"
+msgstr "Kleur"
+
+#: plugin-options/premium-settings-options.php:374
+#: plugin-options/vendor/settings-options.php:311
+msgid "Color of the text (Optional)"
+msgstr "Tekstkleur (optioneel)"
+
+#: plugin-options/premium-settings-options.php:378
+#: plugin-options/vendor/settings-options.php:315
+msgid "Hover Color"
+msgstr "Hover kleur"
+
+#: plugin-options/premium-settings-options.php:381
+#: plugin-options/vendor/settings-options.php:318
+msgid "Color of the text on mouse hover (Optional)"
+msgstr "Tekstkleur op muis hover (optional)"
+
+#: plugin-options/premium-settings-options.php:385
+#: plugin-options/vendor/settings-options.php:322
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: plugin-options/premium-settings-options.php:388
+#: plugin-options/vendor/settings-options.php:325
+msgid "Color of the background (Optional)"
+msgstr "Achtergrondkleur (optioneel)"
+
+#: plugin-options/premium-settings-options.php:392
+#: plugin-options/vendor/settings-options.php:329
+msgid "Background Hover Color"
+msgstr "Achtergrondkleur hover"
+
+#: plugin-options/premium-settings-options.php:395
+#: plugin-options/vendor/settings-options.php:332
+msgid "Color of the background on mouse hover (Optional)"
+msgstr "Achtergrondkleur van muis hover (optioneel)"
+
+#: plugin-options/premium-settings-options.php:399
+#: plugin-options/vendor/settings-options.php:336
+msgid "Icon"
+msgstr "Icoon"
+
+#: plugin-options/premium-settings-options.php:401
+#: plugin-options/vendor/settings-options.php:338
+msgid "Show optional icon"
+msgstr "Toon optioneel icoon"
+
+#: plugin-options/premium-settings-options.php:405
+#: plugin-options/vendor/settings-options.php:342
+msgid "Theme Icon"
+msgstr "Theme Icoon"
+
+#: plugin-options/premium-settings-options.php:406
+#: plugin-options/vendor/settings-options.php:343
+msgid "Custom Icon"
+msgstr "Aangepast icoon"
+
+#: plugin-options/premium-settings-options.php:418
+#: plugin-options/vendor/settings-options.php:355
+msgid "URL Protocol Type"
+msgstr "URL Protocol type"
+
+#: plugin-options/premium-settings-options.php:420
+#: plugin-options/vendor/settings-options.php:357
+msgid "Specify the type of the URL (Optional)"
+msgstr "Specificeer het type van de URL (optioneel)"
+
+#: plugin-options/premium-settings-options.php:443
+#: plugin-options/settings-options.php:64
+#: plugin-options/vendor/settings-options.php:380
+msgid "Other Settings"
+msgstr "Andere instellingen"
+
+#: plugin-options/premium-settings-options.php:448
+#: plugin-options/vendor/settings-options.php:385
+msgid "Product Reviews"
+msgstr "Product reviews"
+
+#: plugin-options/premium-settings-options.php:454
+#: plugin-options/vendor/settings-options.php:391
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: plugin-options/premium-settings-options.php:455
+#: plugin-options/vendor/settings-options.php:392
+msgid "Disabled for all users"
+msgstr "Uitgeschakeld voor alle gebruikers"
+
+#: plugin-options/premium-settings-options.php:456
+#: plugin-options/vendor/settings-options.php:393
+msgid "Disabled only for unregistered users"
+msgstr "Uitgeschakeld uitsluitend voor niet geregistreerde gebruikers"
+
+#: plugin-options/premium-settings-options.php:460
+#: plugin-options/settings-options.php:69
+msgid "Disable shop"
+msgstr "Winkel uitschakelen"
+
+#: plugin-options/premium-settings-options.php:462
+#: plugin-options/settings-options.php:71
+msgid ""
+"Hide and disable \"Cart\" page, \"Checkout\" page and all \"Add to Cart\" "
+"buttons"
+msgstr ""
+"Verbergen en uitschakelen \"Winkelwagen\" pagina, \"Checkout\" pagina en "
+"alle \"Toevoegen aan winkelwagen\" knoppen"
+
+#: templates/admin/alternative-text-table.php:81
+#: templates/admin/alternative-text-table.php:506
+msgid "Custom text"
+msgstr "Aangepaste knop"
+
+#: templates/admin/alternative-text-table.php:85
+#: templates/admin/alternative-text-table.php:627
+#: templates/admin/custom-url-table.php:84
+#: templates/admin/custom-url-table.php:854
+#: templates/admin/exclusions-table.php:98
+#: templates/admin/exclusions-table.php:848
+msgid "Products"
+msgstr "Producten"
+
+#: templates/admin/alternative-text-table.php:87
+#: templates/admin/custom-url-table.php:86
+#: templates/admin/exclusions-table.php:100
+msgid "product"
+msgstr "product"
+
+#: templates/admin/alternative-text-table.php:88
+#: templates/admin/custom-url-table.php:87
+#: templates/admin/exclusions-table.php:101
+msgid "products"
+msgstr "producten"
+
+#: templates/admin/alternative-text-table.php:111
+#: templates/admin/custom-url-table.php:110
+#: templates/admin/exclusions-table.php:125
+msgid "Product"
+msgstr "Product"
+
+#: templates/admin/alternative-text-table.php:130
+#: templates/admin/alternative-text-table.php:185
+#: templates/admin/alternative-text-table.php:240
+#: templates/admin/alternative-text-table.php:738
+#: templates/admin/custom-url-table.php:147
+#: templates/admin/custom-url-table.php:174
+#: templates/admin/custom-url-table.php:263
+#: templates/admin/custom-url-table.php:287
+#: templates/admin/custom-url-table.php:379
+#: templates/admin/custom-url-table.php:403
+#: templates/admin/exclusions-table.php:163
+#: templates/admin/exclusions-table.php:197
+#: templates/admin/exclusions-table.php:288
+#: templates/admin/exclusions-table.php:322
+#: templates/admin/exclusions-table.php:415
+#: templates/admin/exclusions-table.php:449
+#: templates/admin/vendors-table.php:147 templates/admin/vendors-table.php:168
+msgid "Remove from list"
+msgstr "Verwijderen van lijst"
+
+#: templates/admin/alternative-text-table.php:142
+#: templates/admin/alternative-text-table.php:628
+#: templates/admin/custom-url-table.php:198
+#: templates/admin/custom-url-table.php:855
+#: templates/admin/exclusions-table.php:221
+#: templates/admin/exclusions-table.php:849
+msgid "Categories"
+msgstr "Categorieën"
+
+#: templates/admin/alternative-text-table.php:144
+#: templates/admin/custom-url-table.php:200
+#: templates/admin/exclusions-table.php:223
+msgid "category"
+msgstr "categorie"
+
+#: templates/admin/alternative-text-table.php:145
+#: templates/admin/custom-url-table.php:201
+#: templates/admin/exclusions-table.php:224
+msgid "categories"
+msgstr "categorieën"
+
+#: templates/admin/alternative-text-table.php:168
+#: templates/admin/custom-url-table.php:224
+#: templates/admin/exclusions-table.php:248
+msgid "Category"
+msgstr "Categorie"
+
+#: templates/admin/alternative-text-table.php:197
+#: templates/admin/alternative-text-table.php:629
+#: templates/admin/custom-url-table.php:313
+#: templates/admin/custom-url-table.php:856
+#: templates/admin/exclusions-table.php:348
+#: templates/admin/exclusions-table.php:850
+msgid "Tags"
+msgstr "Tags"
+
+#: templates/admin/alternative-text-table.php:199
+#: templates/admin/custom-url-table.php:315
+#: templates/admin/exclusions-table.php:350
+msgid "tag"
+msgstr "tag"
+
+#: templates/admin/alternative-text-table.php:200
+#: templates/admin/custom-url-table.php:316
+#: templates/admin/exclusions-table.php:351
+msgid "tags"
+msgstr "tags"
+
+#: templates/admin/alternative-text-table.php:223
+#: templates/admin/custom-url-table.php:339
+#: templates/admin/exclusions-table.php:375
+msgid "Tag"
+msgstr "tag"
+
+#: templates/admin/alternative-text-table.php:350
+#: templates/admin/custom-url-table.php:526
+#: templates/admin/exclusions-table.php:560
+msgid "1 %s added successfully"
+msgstr "1 %s succesvol toegevoegd"
+
+#: templates/admin/alternative-text-table.php:351
+#: templates/admin/custom-url-table.php:527
+#: templates/admin/exclusions-table.php:561
+msgid "%s %s added successfully"
+msgstr "%s %s succesvol toegevoegd"
+
+#: templates/admin/alternative-text-table.php:356
+#: templates/admin/custom-url-table.php:532
+#: templates/admin/exclusions-table.php:566
+msgid "%s updated successfully"
+msgstr "%s succesvol geüpdatet"
+
+#: templates/admin/alternative-text-table.php:417
+#: templates/admin/custom-url-table.php:607
+#: templates/admin/exclusions-table.php:631
+msgid "1 %s removed successfully"
+msgstr "1 %s succesvol verwijderd"
+
+#: templates/admin/alternative-text-table.php:418
+#: templates/admin/custom-url-table.php:608
+#: templates/admin/exclusions-table.php:632
+msgid "%s %s removed successfully"
+msgstr "%s %s succesvol verwijderd"
+
+#: templates/admin/alternative-text-table.php:442
+msgid "Texts replacing price (Hidden price mode)"
+msgstr "Teksten ter vervanging van de prijs (verborgen prijs modus)"
+
+#: templates/admin/alternative-text-table.php:449
+#: templates/admin/custom-url-table.php:639
+#: templates/admin/exclusions-table.php:663
+msgid "Add %s"
+msgstr "%s toevoegen"
+
+#: templates/admin/alternative-text-table.php:470
+#: templates/admin/custom-url-table.php:660
+#: templates/admin/exclusions-table.php:684
+msgid "%s to edit"
+msgstr "%s om te bewerken"
+
+#: templates/admin/alternative-text-table.php:470
+#: templates/admin/custom-url-table.php:660
+#: templates/admin/exclusions-table.php:684
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#: templates/admin/alternative-text-table.php:485
+#: templates/admin/custom-url-table.php:675
+#: templates/admin/exclusions-table.php:699
+msgid "Search for a %s&hellip;"
+msgstr "Zoeken naar een %s&hellip;"
+
+#: templates/admin/alternative-text-table.php:517
+msgid "Add text"
+msgstr "Tekst toevoegen"
+
+#: templates/admin/alternative-text-table.php:517
+msgid "Update text"
+msgstr "Tekst bijwerken"
+
+#: templates/admin/alternative-text-table.php:519
+#: templates/admin/custom-url-table.php:746
+#: templates/admin/exclusions-table.php:739
+#: templates/admin/vendors-table.php:345
+msgid "Return to list"
+msgstr "Keer terug naar lijst"
+
+#: templates/admin/alternative-text-table.php:525
+msgid ""
+"If you activate the \"Hide price\" option, the items belonging to the "
+"following list will use a custom text instead of the price."
+msgstr ""
+"Als u de optie ' Verberg prijs ' activeert, worden in de items die behoren "
+"tot de volgende lijst, een aangepaste tekst gebruikt in plaats van de prijs."
+
+#: templates/admin/alternative-text-table.php:529
+#: templates/admin/custom-url-table.php:756
+#: templates/admin/exclusions-table.php:750
+msgid "Search %s"
+msgstr "Zoeken %s"
+
+#: templates/admin/alternative-text-table.php:587
+#: templates/admin/custom-url-table.php:814
+#: templates/admin/exclusions-table.php:808
+#: templates/admin/vendors-table.php:399
+msgid "Select at least one category"
+msgstr "Selecteer minstens een categorie"
+
+#: templates/admin/alternative-text-table.php:595
+#: templates/admin/custom-url-table.php:822
+#: templates/admin/exclusions-table.php:816
+msgid "Select at least one tag"
+msgstr "Selecteer minstens een tag"
+
+#: templates/admin/alternative-text-table.php:603
+#: templates/admin/custom-url-table.php:830
+#: templates/admin/exclusions-table.php:824
+msgid "Select at least one product"
+msgstr "Selecteer minstens een product"
+
+#: templates/admin/alternative-text-table.php:723
+#: templates/admin/custom-url-table.php:262
+#: templates/admin/exclusions-table.php:287
+msgid "Edit category"
+msgstr "Bewerk categorie"
+
+#: templates/admin/alternative-text-table.php:723
+#: templates/admin/custom-url-table.php:378
+#: templates/admin/exclusions-table.php:414
+msgid "Edit tag"
+msgstr "Bewerk tag"
+
+#: templates/admin/alternative-text-table.php:731
+#: templates/admin/custom-url-table.php:146
+#: templates/admin/exclusions-table.php:162
+msgid "Edit product"
+msgstr "Bewerk product"
+
+#: templates/admin/alternative-text-table.php:736
+#: templates/admin/alternative-text-table.php:741
+msgid "Edit text"
+msgstr "Tekst bewerken"
+
+#: templates/admin/class-ywctm-languages-form-table.php:90
+#: templates/admin/class-ywctm-languages-url-table.php:90
+msgctxt "[active languages column]"
+msgid "Language"
+msgstr "Taal"
+
+#: templates/admin/class-ywctm-languages-form-table.php:93
+msgctxt "[selected form names column]"
+msgid "Form"
+msgstr "Formulier"
+
+#: templates/admin/class-ywctm-languages-url-table.php:93
+msgctxt "[url column]"
+msgid "URL"
+msgstr "URL"
+
+#: templates/admin/custom-url-table.php:111
+#: templates/admin/custom-url-table.php:225
+#: templates/admin/custom-url-table.php:340
+msgid "Custom button URL"
+msgstr "Aangepaste knop URL"
+
+#: templates/admin/custom-url-table.php:145
+#: templates/admin/custom-url-table.php:150
+#: templates/admin/custom-url-table.php:261
+#: templates/admin/custom-url-table.php:266
+#: templates/admin/custom-url-table.php:377
+#: templates/admin/custom-url-table.php:382
+#: templates/admin/exclusions-table.php:166
+msgid "Edit URL"
+msgstr "Bewerk URL"
+
+#: templates/admin/custom-url-table.php:158
+#: templates/admin/custom-url-table.php:271
+#: templates/admin/custom-url-table.php:387
+msgid "Excluded from custom button"
+msgstr "Uitgesloten van aangepaste knop"
+
+#: templates/admin/custom-url-table.php:166
+#: templates/admin/custom-url-table.php:279
+#: templates/admin/custom-url-table.php:395
+msgid "Link opened in new tab"
+msgstr "Link geopend in nieuw tabblad"
+
+#: templates/admin/custom-url-table.php:632
+msgid "Custom Button URL list"
+msgstr "Aangepaste knop URL lijst"
+
+#: templates/admin/custom-url-table.php:696
+msgid "Exclude from custom button"
+msgstr "Uitsluiten van aangepaste knop"
+
+#: templates/admin/custom-url-table.php:744
+msgid "Add custom URL"
+msgstr "Aangepaste URL toevoegen"
+
+#: templates/admin/custom-url-table.php:744
+msgid "Update custom URL"
+msgstr "Custom URL updaten"
+
+#: templates/admin/custom-url-table.php:752
+msgid ""
+"If you activate the option \"Custom Button\", the items belonging to the "
+"following list will use a custom link for the button."
+msgstr ""
+"Als u de optie \"Aangepaste knop\" activeert, zullen de items behorend tot "
+"de volgende lijst, de aangepaste link als button gebruiken."
+
+#: templates/admin/exclusions-table.php:81
+msgid "Show \"Add to cart\""
+msgstr "Toon \"Toevoegen aan winkelwagen\""
+
+#: templates/admin/exclusions-table.php:82
+msgid "Show \"Add to cart\" button"
+msgstr "Toon \"Toevoegen aan winkelwagen\" knop"
+
+#: templates/admin/exclusions-table.php:83
+msgid "Show price"
+msgstr "Toon prijs"
+
+#: templates/admin/exclusions-table.php:84
+msgid "Show product price"
+msgstr "Toon product prijs"
+
+#: templates/admin/exclusions-table.php:87
+msgid "Hide \"Add to cart\""
+msgstr "Verberg \"toevoegen aan winkelwagen\""
+
+#: templates/admin/exclusions-table.php:88
+msgid "Hide \"Add to cart\" button"
+msgstr "Verberg \"toevoegen aan winkelwagen\" knop"
+
+#: templates/admin/exclusions-table.php:92
+msgid "Hide price"
+msgstr "Verberg prijs"
+
+#: templates/admin/exclusions-table.php:93
+msgid "Hide product price"
+msgstr "Verberg product prijs"
+
+#: templates/admin/exclusions-table.php:161
+msgid "Edit exclusions"
+msgstr "Bewerk uitzonderingen"
+
+#: templates/admin/exclusions-table.php:172
+#: templates/admin/exclusions-table.php:185
+#: templates/admin/exclusions-table.php:297
+#: templates/admin/exclusions-table.php:310
+#: templates/admin/exclusions-table.php:424
+#: templates/admin/exclusions-table.php:437
+#: templates/admin/vendors-table.php:156
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/admin/exclusions-table.php:175
+#: templates/admin/exclusions-table.php:188
+#: templates/admin/exclusions-table.php:300
+#: templates/admin/exclusions-table.php:313
+#: templates/admin/exclusions-table.php:427
+#: templates/admin/exclusions-table.php:440
+#: templates/admin/vendors-table.php:159
+msgid "No"
+msgstr "Nee"
+
+#: templates/admin/exclusions-table.php:286
+#: templates/admin/exclusions-table.php:291
+#: templates/admin/exclusions-table.php:413
+#: templates/admin/exclusions-table.php:418
+#: templates/admin/vendors-table.php:145 templates/admin/vendors-table.php:150
+msgid "Edit exclusion"
+msgstr "Bewerk uitzondering"
+
+#: templates/admin/exclusions-table.php:656
+msgid "Exclusion list"
+msgstr "Uitzonderingen lijst"
+
+#: templates/admin/exclusions-table.php:737
+#: templates/admin/vendors-table.php:343
+msgid "Add exclusion"
+msgstr "Uitzondering toevoegen"
+
+#: templates/admin/exclusions-table.php:737
+#: templates/admin/vendors-table.php:343
+msgid "Update exclusion"
+msgstr "Uitzondering updaten"
+
+#: templates/admin/exclusions-table.php:746
+msgid ""
+"If you want to use this table, firstly you have to specify what you want to "
+"hide (\"Add to cart\", price or both), then enable the \"Exclusion\" option "
+"and, if want, also enable the \"Reverse Exclusion\" option. Note: if you "
+"hide the price, also \"Add to cart\" button will be automatically hidden."
+msgstr ""
+"Indien u deze tabel wilt gebruiken, dient u eerst te specificeren wat u wilt "
+"verbergen (\"toevoegen aan winkelwagen\", prijs of beide) vervolgens kunt u "
+"de \"Uitzonderingen\" optie inschakelen en, als u wilt, de \"Omgekeerde "
+"uitzonderingen\" optie inschakelen. Let op: als u de prijs verbergt, zal "
+"automatisch de \"Toevoegen aan winkelwagen\" knop worden verborgen."
+
+#: templates/admin/icon-list.php:72
+msgid "Upload"
+msgstr "Upload"
+
+#: templates/admin/icon-list.php:81
+msgid "Image preview"
+msgstr "Voorbeeld"
+
+#: templates/admin/vendors-table.php:79
+msgid "Exclude from override"
+msgstr "Uitsluiten van overschrijven"
+
+#: templates/admin/vendors-table.php:82
+msgid "Apply override"
+msgstr "Overschrijven toepassen"
+
+#: templates/admin/vendors-table.php:86
+msgid "vendor"
+msgstr "verkoper"
+
+#: templates/admin/vendors-table.php:87
+msgid "vendors"
+msgstr "verkopers"
+
+#: templates/admin/vendors-table.php:110
+msgid "Vendor"
+msgstr "verkoper"
+
+#: templates/admin/vendors-table.php:146
+msgid "Edit vendor"
+msgstr "Bewerk verkoper"
+
+#: templates/admin/vendors-table.php:224
+msgid "1 vendor added successfully"
+msgstr "1 verkoper is succesvol toegevoegd"
+
+#: templates/admin/vendors-table.php:225
+msgid "%s vendors added successfully"
+msgstr "%s verkopers zijn succesvol toegevoegd"
+
+#: templates/admin/vendors-table.php:230
+msgid "Vendor updated successfully"
+msgstr "Verkoper succesvol geüpdatet"
+
+#: templates/admin/vendors-table.php:261
+msgid "1 vendor removed successfully"
+msgstr "1 verkoper succesvol verwijderd"
+
+#: templates/admin/vendors-table.php:262
+msgid "%s vendors removed successfully"
+msgstr "%s verkopers succesvol verwijderd"
+
+#: templates/admin/vendors-table.php:270
+msgid "Vendor Exclusion list"
+msgstr "Verkoper uitzonderingen lijst"
+
+#: templates/admin/vendors-table.php:277
+msgid "Add vendors"
+msgstr "Verkopers toevoegen"
+
+#: templates/admin/vendors-table.php:298
+msgid "Vendor to edit"
+msgstr "Verkoper om te bewerken"
+
+#: templates/admin/vendors-table.php:298
+msgid "Select vendors"
+msgstr "Selecteer verkopers"
+
+#: templates/admin/vendors-table.php:313
+msgid "Search for a vendor&hellip;"
+msgstr "Zoeken naar verkoper&hellip;"
+
+#: templates/admin/vendors-table.php:352
+msgid ""
+"If you want to use this table, firstly you have to enable the \"Admin "
+"Override\" option, then enable the \"Exclusion\" option and, if want, also "
+"enable the \"Reverse Exclusion\" option."
+msgstr ""
+"Indien u deze tabel wilt gebruiken, dient u eerst de \"Admin overschrijven\" "
+"optie in te schakelen, vervolgens de \"Uitzonderingen\" optie inschakelen "
+"en, als u wilt, de \"Omgekeerde uitzonderingen\" optie inschakelen."
+
+#: templates/admin/vendors-table.php:356
+msgid "Search vendor"
+msgstr "Verkoper zoeken"
+
+#: templates/admin/vendors-table.php:425
+msgid "Vendors"
+msgstr "Verkopers"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Catalog Mode Premium"
+msgstr "YITH WooCommerce Catalog Mode Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-catalog-mode/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-catalog-mode/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Catalog Mode</strong></code> allows hiding "
+"product prices, cart and checkout from your store and turning it into a "
+"performing product catalogue. You will be able to adjust your catalogue "
+"settings as you prefer based on your requirements. <a href=\"https://"
+"yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop "
+"on <strong>YITH</strong></a>"
+msgstr ""
+"<code><strong> YITH WooCommerce Catalog Mode </strong></code> biedt de "
+"mogelijkheid om productprijzen, winkelwagen en afrekenen te verbergen in uw "
+"winkel en deze om te zetten in een uitvoerige productcatalogus. U kunt uw "
+"catalogusinstellingen naar wens aanpassen op basis van uw vereisten. <a href="
+"\"https://yithemes.com/\" target=\"_blank\"> Download meer plug-ins voor uw "
+"e-commerceshop op<strong>YITH</strong></a>"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Plugin Documentatie"
+
+#~ msgid "Upgrade to the PREMIUM VERSION"
+#~ msgstr "Upgraden naar PREMIUM VERSIE"
+
+#~ msgid "Discover the Advanced Features"
+#~ msgstr "Ondenk de geavanceerde features"
+
+#~ msgid ""
+#~ "Upgrade to the PREMIUM VERSION of YITH WooCommerce Catalog Mode to "
+#~ "benefit from all features!"
+#~ msgstr ""
+#~ "Upgraden naar PREMIUM VERSIE van YITH WooCommerce Catalogus Mode om te "
+#~ "profiteren van alle features!"
+
+#~ msgid "Get Support and Pro Features"
+#~ msgstr "Krijg support en Pro features"
+
+#~ msgid ""
+#~ "By purchasing the premium version of the plugin, you will take advantage "
+#~ "of the advanced features of the product and you will get one year of free "
+#~ "updates and support through our platform available 24h/24."
+#~ msgstr ""
+#~ "Door de premium versie van de plugin te kopen, kunt u gebruik maken van "
+#~ "geavanceerde features van het product, en u krijgt een jaar gratis "
+#~ "updates en support via ons platform, 24/7 beschikbaar."

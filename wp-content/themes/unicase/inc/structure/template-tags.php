@@ -190,7 +190,6 @@ if ( ! function_exists( 'unicase_get_sidebar' ) ) {
 	function unicase_get_sidebar() {
 		
 		$layout_args = unicase_get_page_layout_args();
-
 		if( ! empty( $layout_args['sidebar'] ) ) {
 			get_sidebar( $layout_args['sidebar'] );
 		} else {

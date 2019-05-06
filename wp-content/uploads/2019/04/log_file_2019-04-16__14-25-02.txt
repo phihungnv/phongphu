@@ -1,0 +1,133 @@
+
+---Downloaded files---
+The import files for: Unicase-v1 were successfully downloaded!
+Initial max execution time = 300000
+Files info:
+Site URL = http://phongphu.local
+Data file = C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/dummy-data.xml
+Widget file = C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/widgets.wie
+Customizer file = not defined!
+Redux files:
+unicase_options -> C:\xampp56\htdocs\phongphu-new/wp-content/themes/unicase/assets/dummy-data/v1/redux-options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Page Sidebar : 
+
+Vertical Menu - Categories - Imported
+Products - Special Products - Imported
+Products - Sale Products - Imported
+Unicase Products Carousel - Hot Deals - Imported
+Text - No Title - Imported
+
+Shop Sidebar : 
+
+Unicase Product Filter - Shop by - Imported
+Text - No Title - Imported
+YITH WooCommerce Compare Widget - COMPARE - Imported
+
+Product Filters : 
+
+Product Categories - Category - Imported
+Filter Products by Price - Price Slider - Imported
+Filter Products by Attribute - Manufactures - Imported
+Filter Products by Attribute - Colors - Imported
+Active Product Filters - Active Filters - Imported
+
+Footer Top Widgets : 
+
+Mailchimp Sign-Up Form - Newsletter - Imported
+Text - Opening Time - Imported
+Text - Information - Imported
+
+Footer Bottom Widgets : 
+
+Navigation Menu - Pre-Built Pages - Imported
+Navigation Menu - Shop Fullwidth - Imported
+Navigation Menu - Shop Sidebar - Imported
+Navigation Menu - WooCommerce Shortcodes - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: unicase_options finished successfully!
+
+---pt-ocdi/after_import---
+

@@ -1,0 +1,30 @@
+.widget.widget_categories {
+    border-bottom: 1px solid #ccc;
+}
+
+.widget.widget_categories h3.widget-title {
+    padding: 10px;
+    color: #fff;
+    background-color: #30a11e;
+    margin-bottom: 0;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.widget.widget_categories ul {
+    margin-bottom: 0;
+}
+
+.widget.widget_categories ul li.cat-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px dashed #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.widget.widget_categories ul li.cat-item:last-of-type {
+    border-bottom: none;
+}

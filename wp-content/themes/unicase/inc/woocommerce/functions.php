@@ -629,7 +629,7 @@ if( ! function_exists( 'unicase_loop_view_wrap_end' ) ) {
 
 if( ! function_exists( 'unicase_single_product_share_icons' ) ) {
 	function unicase_single_product_share_icons() {
-		
+
 		if( apply_filters( 'unicase_show_single_product_share', TRUE ) ) :
 
 			$url = get_permalink();
@@ -645,11 +645,11 @@ if( ! function_exists( 'unicase_single_product_share_icons' ) ) {
 
 			$single_product_social_icons_args = apply_filters( 'single_product_social_icons_args', array(
 				'facebook'		=> array(
-					'share_url'	=> 'http://www.facebook.com/sharer.php',
+					'share_url'	=> 'https://www.facebook.com/sharer.php',
 					'icon'		=> 'fa fa-facebook',
 					'name'		=> esc_html__( 'Facebook', 'unicase' ),
 					'params'	=> array(
-						'u'				=> 'url'
+						'u'				=> 'url',
 					)
 				),
 				'twitter'		=> array(
@@ -705,12 +705,14 @@ if( ! function_exists( 'unicase_single_product_share_icons' ) ) {
 			<div class="social-icons">
 				<ul class="list-unstyled list-social-icons">
 				<?php foreach( $single_product_social_icons_args as $key => $social_icon ): ?>
-					<?php 
+					<?php
 						$query_args = array();
 						foreach( $social_icon['params'] as $param_key => $param ) {
 
 							if( isset( $$param ) ) {
 								$query_args[ $param_key ] = $$param;
+							} else {
+							    $query_args[ $param_key ] = $param;
 							}
 						}
 

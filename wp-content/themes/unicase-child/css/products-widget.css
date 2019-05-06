@@ -1,0 +1,34 @@
+.widget_products h3.widget-title {
+    padding: 10px;
+    color: #fff;
+    background-color: #30a11e;
+    margin-bottom: 0;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.widget_products .product_list_widget li {
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    border-left:  1px solid #ccc;
+    border-right:  1px solid #ccc;
+    margin-bottom: 0;
+}
+
+.widget_products .product_list_widget li:not(:last-of-type) a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.widget_products .product_list_widget li:last-of-type {
+    border-bottom:  1px solid #ccc;
+    text-align: center;
+}
+
+.widget_products .product_list_widget li:last-of-type a {
+    color: #30a11e;
+    font-weight: bold;
+}
