@@ -40,3 +40,9 @@ html, body {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
 }
+
+@media screen and (min-width: 768px){
+    .main-header .main-header-content .search-area{
+        margin-top: 19px;
+    }
+}
