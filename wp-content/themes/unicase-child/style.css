@@ -34,6 +34,9 @@ Images License: GNU General Public License v2 or later
 @import "css/categories-widget.css";
 @import "css/products-widget.css";
 
+@import "css/products.css";
+@import "css/home.css";
+
 @import "css/common.css";
 
 html, body {

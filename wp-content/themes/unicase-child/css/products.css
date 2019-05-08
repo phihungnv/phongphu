@@ -1,0 +1,23 @@
+.unicase-product-section .section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #30a11e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.unicase-product-section .section-head .section-title {
+    margin: 0;
+    border: none;
+    padding: 5px 10px;
+    background-color: #30a11e;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+.unicase-product-section .section-head  .view-all  {
+    color: #30a11e;
+}

@@ -1,0 +1,7 @@
+.home .banner-element .wpb_content_element .wpb_wrapper > div {
+    min-height: 125px;
+}
+
+.home .banner-element .wpb_content_element .wpb_wrapper > div h4 {
+    font-size: .9em;
+}

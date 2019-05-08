@@ -7,6 +7,7 @@ require get_stylesheet_directory() . '/inc/filters.php';
  * Add shortcodes
  */
 require get_stylesheet_directory() . '/inc/shortcodes/single-product.php';
+require get_stylesheet_directory() . '/inc/shortcodes/products.php';
 
 /**
  * Add widgets
@@ -44,6 +45,16 @@ register_sidebar( apply_filters( 'unicase_register_sidebar_args', array(
 register_sidebar( apply_filters( 'unicase_register_sidebar_args', array(
     'name'          => esc_html__( 'About Us Sidebar', 'unicase' ),
     'id'            => 'about-us-sidebar',
+    'description'   => '',
+    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</aside>',
+    'before_title'  => '<h3 class="widget-title">',
+    'after_title'   => '</h3>',
+) ) );
+
+register_sidebar( apply_filters( 'unicase_register_sidebar_args', array(
+    'name'          => esc_html__( 'Homepage Sidebar', 'unicase' ),
+    'id'            => 'homepage-sidebar',
     'description'   => '',
     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
     'after_widget'  => '</aside>',
