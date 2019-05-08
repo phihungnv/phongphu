@@ -1,0 +1,10 @@
+#secondary .widget.widget_fbw_id h3.widget-title {
+    padding: 10px;
+    color: #fff;
+    background-color: #30a11e;
+    margin-bottom: 0;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}

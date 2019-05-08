@@ -1,4 +1,4 @@
-#woocommerce_product_categories-2  h3.widget-title{
+aside[id^='woocommerce_product_categories']  h3.widget-title{
     padding: 15px;
     color: #fff;
     background-color: #30a11e;
@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 
-#woocommerce_product_categories-2  h3.widget-title:before {
+aside[id^='woocommerce_product_categories']  h3.widget-title:before {
     content: "\f039";
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -18,7 +18,7 @@
     margin-right: 10px;
 }
 
-#woocommerce_product_categories-2 .product-categories > .cat-item {
+aside[id^='woocommerce_product_categories'] .product-categories > .cat-item {
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: 1px dashed #ccc;
@@ -26,6 +26,6 @@
     border-right:  1px solid #ccc;
 }
 
-#woocommerce_product_categories-2 .product-categories > .cat-item:last-of-type {
+aside[id^='woocommerce_product_categories'] .product-categories > .cat-item:last-of-type {
     border-bottom: 1px solid #ccc;
 }
