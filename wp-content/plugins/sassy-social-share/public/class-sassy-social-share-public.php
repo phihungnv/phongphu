@@ -1657,7 +1657,7 @@ class Sassy_Social_Share_Public {
 					}
 					if ( $url == '' ) { continue; }
 					$response = wp_remote_get( $url,  array( 'timeout' => 15, 'user-agent'  => 'Sassy-Social-Share' ) );
-					if ( $provider == 'facebook' && isset( $response['response']['code'] ) && 400 === $response['response']['code'] ) {
+					if ( $provider == 'facebook' && ! is_wp_error( $response ) && isset( $response['response']['code'] ) && 400 === $response['response']['code'] ) {
 						$body = json_decode( wp_remote_retrieve_body( $response ) );
 						if ( isset( $body->error ) && isset( $body->error->code ) && $body->error->code == 190 ) {
 							delete_option( 'heateor_sss_fb_access_token' );
