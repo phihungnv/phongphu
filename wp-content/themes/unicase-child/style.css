@@ -53,6 +53,31 @@ footer .footer-bottom-contents-wrap .footer-copyright-text{
     float: none;
     display: block;
     text-align: center;
+    color: #acacac;
+}
+
+footer .footer-bottom-widgets h4.widget-title {
+    font-family: 'Lato', sans-serif;
+    color: #acacac;
+}
+
+footer .footer-bottom-widgets .textwidget .company-name {
+    color: #acacac;
+}
+
+footer .footer-bottom-widgets .textwidget ul li {
+    color: #acacac;
+    border-bottom: none !important;
+    margin-bottom: 10px;
+}
+
+.drag-wrapper.drag-wrapper-right .thing .circle img {
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 @media screen and (min-width: 768px){
